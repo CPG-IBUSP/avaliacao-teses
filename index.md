@@ -21,8 +21,8 @@ github:
 > - Ficha preenchida pela banca examinadora
 > - Respostas anônimas
 > - Três perguntas:
-    - Avaliação geral de qualidade
-    - Impacto potencial
-    - Avaliação de 10 quesitos
+>   - Avaliação geral de qualidade
+>    - Impacto potencial
+>    - Avaliação de 10 quesitos
 
 ---
