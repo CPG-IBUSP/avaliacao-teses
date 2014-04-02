@@ -8,7 +8,9 @@ highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : solarized_light      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
-
+github:
+  user: piklprado
+  repo: ficha-IBUSP
 ---
 
 ## Apresentação
