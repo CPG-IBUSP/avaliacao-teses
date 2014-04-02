@@ -9,8 +9,8 @@ hitheme     : solarized_light      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 github:
-  user: piklprado
-  repo: ficha-IBUSP
+  user: CPG-IBUSP
+  repo: avaliacao-teses
 ---
 
 ## Apresentação
