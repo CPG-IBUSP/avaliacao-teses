@@ -28,4 +28,7 @@ github:
 ---
 
 ## Planilha de dados
-Baixe [aqui](./files/ficha_avaliacao_CPG_IB.csv)
+
+- Download em formato [RData](./files/ficha.RData) (para R)
+- Download em formato [csv](./files/ficha_avaliacao_CPG_IB.csv) (planilhas eletrônicas)
+- [Metadados](./files/metadata.html)

@@ -1,0 +1,70 @@
+<hr><h2>Data frame:fichas</h2>801 observations and 24 variables, maximum # NAs:36<hr>
+<TABLE BORDER>
+<tr><td><h3>Name</h3></td><td><h3>Labels</h3></td><td><h3>Units</h3></td><td><h3>Levels</h3></td><td><h3>Class</h3></td><td><h3>Storage</h3></td><td><h3>NAs</h3></td></tr>
+<tr><td>aluno</td><td>identificador do aluno (numero aleatorio)</td><td></td><td></td><td>character</td><td>character</td><td><div align=right> 0</div></td></tr>
+<tr><td>ano.defesa</td><td>Ano da defesa da tese/dissertacao</td><td></td><td></td><td>integer</td><td>integer</td><td><div align=right> 0</div></td></tr>
+<tr><td>programa</td><td>Programa de pos-graduacao</td><td></td><td><a href="#levels.programa">5</a></td><td></td><td>integer</td><td><div align=right> 0</div></td></tr>
+<tr><td>titul</td><td>Curso</td><td></td><td><a href="#levels.titul">3</a></td><td></td><td>integer</td><td><div align=right> 0</div></td></tr>
+<tr><td>titul.2</td><td>Titulacao</td><td></td><td><a href="#levels.titul.2">2</a></td><td></td><td>integer</td><td><div align=right> 0</div></td></tr>
+<tr><td>prazo.dep</td><td>Prazo regimental para deposito da tese/dissertacao</td><td></td><td></td><td>integer</td><td>integer</td><td><div align=right>21</div></td></tr>
+<tr><td>tempo.dep</td><td>Tempo de deposito</td><td>unidades de 30 dias</td><td></td><td>numeric</td><td>double</td><td><div align=right>18</div></td></tr>
+<tr><td>tempo.def</td><td>Tempo de titulacao</td><td>unidades de 30 dias</td><td></td><td>numeric</td><td>double</td><td><div align=right>18</div></td></tr>
+<tr><td>avaliador</td><td>categoria do avaliador</td><td></td><td><a href="#levels.avaliador">3</a></td><td></td><td>integer</td><td><div align=right> 0</div></td></tr>
+<tr><td>estrato</td><td>quantil de qualidade relativa da tese, segundo o avaliador</td><td></td><td><a href="#levels.estrato">5</a></td><td></td><td>integer</td><td><div align=right>30</div></td></tr>
+<tr><td>estrato.n</td><td>quantil de qualidade em scala de 1 (=10%) até 4 (=50%)</td><td></td><td></td><td>integer</td><td>integer</td><td><div align=right>30</div></td></tr>
+<tr><td>impacto</td><td>impacto potencial da melhor publicacao resultante</td><td></td><td><a href="#levels.impacto">4</a></td><td></td><td>integer</td><td><div align=right>36</div></td></tr>
+<tr><td>impacto.n</td><td>impacto potencial em escala de 1 (alto) a 4 (não publicável)</td><td></td><td></td><td>integer</td><td>integer</td><td><div align=right>36</div></td></tr>
+<tr><td>nota.tese</td><td>soma de indicacoes de excelencia nos 10 quesitos a seguir</td><td></td><td></td><td>integer</td><td>integer</td><td><div align=right> 0</div></td></tr>
+<tr><td>redacao</td><td>excelência na redacao</td><td></td><td></td><td>logical</td><td>logical</td><td><div align=right> 0</div></td></tr>
+<tr><td>contextualiz</td><td>excelencia na contextualizacao teorica</td><td></td><td></td><td>logical</td><td>logical</td><td><div align=right> 0</div></td></tr>
+<tr><td>objetivos</td><td>excelencia nos objetivos: bem definidos e condizentes com o título pleiteado</td><td></td><td></td><td>logical</td><td>logical</td><td><div align=right> 0</div></td></tr>
+<tr><td>hip.claras</td><td>excelencia nas hipoteses: perguntas e/ou hipóteses são claras e explicitas</td><td></td><td></td><td>logical</td><td>logical</td><td><div align=right> 0</div></td></tr>
+<tr><td>originalidade</td><td>excelencia na originalidade e relevância</td><td></td><td></td><td>logical</td><td>logical</td><td><div align=right> 0</div></td></tr>
+<tr><td>metodos</td><td>excelencia nos metodos: bem descritos e adequados para responder a(s) pergunta(s)</td><td></td><td></td><td>logical</td><td>logical</td><td><div align=right> 0</div></td></tr>
+<tr><td>analises</td><td>excelencia nas analises: bem descritas e adequadas para responder a(s) pergunta(s)</td><td></td><td></td><td>logical</td><td>logical</td><td><div align=right> 0</div></td></tr>
+<tr><td>resultados</td><td>excelencia nos resultados: bem apresentados e respondem a(s) pergunta(s).</td><td></td><td></td><td>logical</td><td>logical</td><td><div align=right> 0</div></td></tr>
+<tr><td>discussao</td><td>excelencia na discussao: solida e fortemente alicercada nos resultados obtidos.</td><td></td><td></td><td>logical</td><td>logical</td><td><div align=right> 0</div></td></tr>
+<tr><td>literatura</td><td>excelencia na literatura usada: adequada e atualizada</td><td></td><td></td><td>logical</td><td>logical</td><td><div align=right> 0</div></td></tr>
+</TABLE>
+<hr>
+<h2 align="center">Category Levels</h2>
+<a name="levels.programa"><h3>programa</h3>
+<ul>
+<li>Bot</li>
+<li>Eco</li>
+<li>Fis</li>
+<li>Gen</li>
+<li>Zoo</li>
+</ul>
+<a name="levels.titul"><h3>titul</h3>
+<ul>
+<li>Doutorado</li>
+<li>Doutorado direto</li>
+<li>Mestrado</li>
+</ul>
+<a name="levels.titul.2"><h3>titul.2</h3>
+<ul>
+<li>Doutorado</li>
+<li>Mestrado</li>
+</ul>
+<a name="levels.avaliador"><h3>avaliador</h3>
+<ul>
+<li>Externo</li>
+<li>Interno</li>
+<li>Orientador</li>
+</ul>
+<a name="levels.estrato"><h3>estrato</h3>
+<ul>
+<li></li>
+<li>10%</li>
+<li>25%</li>
+<li><50%</li>
+<li>50%</li>
+</ul>
+<a name="levels.impacto"><h3>impacto</h3>
+<ul>
+<li>alto</li>
+<li>baixo</li>
+<li>medio</li>
+<li>nao public</li>
+</ul>
