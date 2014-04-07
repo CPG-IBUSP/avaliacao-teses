@@ -26,3 +26,6 @@ github:
 >    - Avaliação de 10 quesitos
 
 ---
+
+## Planilha de dados
+Baixe [aqui](./files/ficha_avaliacao_CPG_IB.csv)
