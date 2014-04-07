@@ -1,34 +1,33 @@
 library(reshape)
 library(Hmisc)
+require(googleVis)
+## Carrega os dados
+load("files/ficha.RData")
 
-fichas <- upData(fichas,
-       labels=c(aluno="identificador do aluno (numero aleatorio)",
-           ano.defesa="Ano da defesa da tese/dissertacao",
-           programa="Programa de pos-graduacao",
-           titul="Curso",
-           titul.2="Titulacao",
-           prazo.dep="Prazo regimental para deposito da tese/dissertacao",
-           tempo.dep="Tempo de deposito",
-           tempo.def="Tempo de titulacao",
-           avaliador="categoria do avaliador",
-           estrato="quantil de qualidade relativa da tese, segundo o avaliador",
-           estrato.n="quantil de qualidade em scala de 1 (=10%) até 4 (=50%)",
-           impacto="impacto potencial da melhor publicacao resultante",
-           impacto.n="impacto potencial em escala de 1 (alto) a 4 (não publicável)",
-           nota.tese="soma de indicacoes de excelencia nos 10 quesitos a seguir",
-           redacao="excelencia na redacao",
-           contextualiz="excelencia na contextualizacao teorica",
-           objetivos="excelencia nos objetivos: bem definidos e condizentes com o titulo pleiteado",
-           hip.claras="excelencia nas hipoteses: perguntas e/ou hipoteses sao claras e explicitas",
-           originalidade="excelencia na originalidade e na relevancia do trabalho",
-           metodos="excelencia nos metodos: bem descritos e adequados para responder a(s) pergunta(s)",
-           analises="excelencia nas analises: bem descritas e adequadas para responder a(s) pergunta(s)",
-           resultados="excelencia nos resultados: bem apresentados e respondem a(s) pergunta(s).",
-           discussao="excelencia na discussao: solida e fortemente alicercada nos resultados obtidos.",
-           literatura="excelencia na literatura usada: adequada e atualizada"
-           ),
-                 units=c(tempo.dep="unidades de 30 dias", tempo.def="unidades de 30 dias")
-                 )
+## Minimos por aluno
+ficha.alun <- ficha[!duplicated(ficha$aluno),1:7]
+ficha.min <- aggregate(ficha[,c(11,13:24)], by=list(aluno=ficha$aluno), min)
+ficha.min <- cbind(ficha.alun[match(ficha.min$aluno, ficha.alun$aluno),],ficha.min[,-1])
+
+##Tabela com n de teses por programa
+## Prepacao dos dados
+ficha.alun <- ficha[!duplicated(ficha$aluno),1:7]
+ficha.min <- aggregate(ficha[,c(11,13:24)], by=list(aluno=ficha$aluno), min)
+ficha.min <- cbind(ficha.alun[match(ficha.min$aluno, ficha.alun$aluno),],ficha.min[,-1])
+t1 <- with(ficha.min,addmargins(table(programa, curso)))
+class(t1)<-"matrix"
+t1 <- as.data.frame(t1)
+rownames(t1)[nrow(t1)] <-colnames(t1)[ncol(t1)] <- "Total"
+t1<-cbind(Programa=as.character(rownames(t1)),t1)
+colnames(t1)[2:4]<-c("Mestr", "Dout", "D.Dir")
+tab1<-gvisTable(t1, options=list(width="60%", sort="disable"))
+print(tab1, tag="chart")
+
+## Grafico de barras de teses por classe de qualidade dos externos
+tab2 <- as.data.frame(with(ficha.min,table(paste(programa,titulo),estrato.n)))
+f1 <- Rickshaw$new()
+f1$layer(Freq ~ estrato.n, group = 'Var1', data = tab2, type = 'area')
+f1
 
 ## Modelo glmer para efeito de tipo de avaliador
 library(lme4)
