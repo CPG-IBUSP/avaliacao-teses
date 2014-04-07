@@ -21,9 +21,9 @@ github:
 > - Ficha preenchida pela banca examinadora
 > - Respostas anônimas
 > - Três perguntas:
->   - Avaliação geral de qualidade
->    - Impacto potencial
->    - Avaliação de 10 quesitos
+>   - Qualidade relativa às teses que avaliou/orientou
+>   - Impacto potencial do melhor artigo
+>   - Avaliação de 10 quesitos
 
 ---
 
