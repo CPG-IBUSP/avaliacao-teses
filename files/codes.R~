@@ -1,0 +1,13 @@
+## ---- Q1 ----
+## Prepara os dados
+ficha.min$estrato <- factor(ficha.min$estrato.n, levels=1:4);levels(ficha.min$estrato) <- c("<50%","50%","25%","10%")
+ficha.min$impacto <- factor(ficha.min$impacto.n); levels(ficha.min$impacto) <- c("nao public","baixo","medio","alto")
+## Matrix para a funcao barplot
+tab2 <- as.matrix(table(ficha.min$estrato[ficha.min$titul=="Mestrado"]))
+tab2 <- cbind(tab2,sum(tab2[,1])*c(0.5,0.25,0.15,0.1))
+par(cex.axis = 2, cex.lab = 2.25, cex.main=2.5, mar = c(6,6.5,4,2), mgp=c(5,1,0),bty = "l", las=1)
+barplot(t(tab2),beside=T, col=c("darkblue","grey"), border=NA,
+        #main="Mestrado",
+        xlab="Quantil de qualidade da dissertacao",
+        ylab="N de dissertações",
+        legend.text=c("Observado","Esperado"), args.legend=list(border=NA,bty="n", cex=2))

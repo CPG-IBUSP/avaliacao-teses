@@ -24,10 +24,15 @@ tab1<-gvisTable(t1, options=list(width="60%", sort="disable"))
 print(tab1, tag="chart")
 
 ## Grafico de barras de teses por classe de qualidade dos externos
-tab2 <- as.data.frame(with(ficha.min,table(paste(programa,titulo),estrato.n)))
-f1 <- Rickshaw$new()
-f1$layer(Freq ~ estrato.n, group = 'Var1', data = tab2, type = 'area')
-f1
+ficha.min$estrato <- factor(ficha.min$estrato.n, levels=1:4);levels(ficha.min$estrato) <- c("<50%","50%","25%","10%")
+ficha.min$impacto <- factor(ficha.min$impacto.n); levels(ficha.min$impacto) <- c("nao public","baixo","medio","alto")
+tab2 <- as.matrix(table(ficha.min$estrato))
+tab2 <- cbind(tab2,nrow(ficha.min)*c(0.5,0.25,0.15,0.1))
+barplot(t(tab2),beside=T, col=c("darkblue","grey"), border=NA,
+        main="Mestrado e Doutorado IB",
+        xlab="Quantil de qualidade da tese/dissertacao",
+        ylab="N de dissertações",
+        legend.text=c("Obs","Esp"), args.legend=list(border=NA,bty="n", cex=1.5))
 
 ## Modelo glmer para efeito de tipo de avaliador
 library(lme4)

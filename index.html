@@ -66,14 +66,14 @@
 
 <!-- Table generated in R 3.0.3 by googleVis 0.4.7 package -->
 
-<!-- Mon Apr  7 06:57:40 2014 -->
+<!-- Tue Apr  8 02:09:32 2014 -->
 
 <!-- jsHeader -->
 
 <script type="text/javascript">
  
 // jsData 
-function gvisDataTableID611829c2b80b () {
+function gvisDataTableID37a679e802bc () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -130,15 +130,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartTableID611829c2b80b() {
-var data = gvisDataTableID611829c2b80b();
+function drawChartTableID37a679e802bc() {
+var data = gvisDataTableID37a679e802bc();
 var options = {};
 options["allowHtml"] = true;
 options["width"] = "60%";
 options["sort"] = "disable";
 
     var chart = new google.visualization.Table(
-    document.getElementById('TableID611829c2b80b')
+    document.getElementById('TableID37a679e802bc')
     );
     chart.draw(data,options);
     
@@ -162,9 +162,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartTableID611829c2b80b);
+callbacks.push(drawChartTableID37a679e802bc);
 })();
-function displayChartTableID611829c2b80b() {
+function displayChartTableID37a679e802bc() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -190,17 +190,27 @@ callbacks.shift()();
 
 <!-- jsChart -->  
 
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID611829c2b80b"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID37a679e802bc"></script>
  
 
 <!-- divChart -->
 
-<div id="TableID611829c2b80b"
+<div id="TableID37a679e802bc"
   style="width: 60%px; height: 500px;">
 </div>
 
 </section>
 <section class="slide " id="slide-4">
+  <h2>Qualidade relativa - Mestrado</h2>
+  <p><img src="assets/fig/QRM.png" alt="plot of chunk QRM"> </p>
+
+</section>
+<section class="slide " id="slide-5">
+  <h2>Qualidade relativa - Doutorado</h2>
+  <p><img src="assets/fig/QRD.png" alt="plot of chunk QRD"> </p>
+
+</section>
+<section class="slide " id="slide-6">
   <h2>Planilha de dados</h2>
   <ul>
 <li>Download em formato <a href="./files/ficha.RData">RData</a> (para R)</li>

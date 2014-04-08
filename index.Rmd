@@ -3,11 +3,11 @@ title       : Avaliação das tese e dissertações do IB-USP
 subtitle    : 
 author      : Comissão de Pós-Graduação
 job         : Instituto de Biociências da Universidade de São Paulo
-framework   : deckjs        # {io2012, html5slides, shower, dzslides, ...}
+framework   : deckjs        # {deckjs, io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : solarized_light      # 
 widgets     : [bootstrap, quiz, shiny, interactive]# {mathjax, quiz, bootstrap}
-ext_widgets: {rCharts: ["libraries/rickshaw", "libraries/highcharts", "libraries/nvd3", "libraries/morris"]}
+# ext_widgets: {rCharts: ["libraries/rickshaw", "libraries/highcharts", "libraries/nvd3", "libraries/morris"]}
 mode        : selfcontained # {standalone, draft}
 github:
   user: CPG-IBUSP
@@ -16,13 +16,10 @@ github:
 
 ## Apresentação
 ```{r setup, echo = F, message = F, cache = F}
-#library(xtable)
-#library(pander)
 require(googleVis)
-require( rCharts )
-options(RCHART_TEMPLATE = 'Rickshaw.html')
-knitr::opts_chunk$set(comment = NA, results = 'asis', tidy = F, message = T)
-#options(RCHART_TEMPLATE = 'Rickshaw.html', xtable.type = 'html')
+knitr::opts_chunk$set(comment = NA, results = 'asis', tidy = F, message = T, fig.width=15, echo=FALSE, cache=FALSE)
+knitr::read_chunk("./files/codes.R")
+
 ```
 ---
 
@@ -38,19 +35,16 @@ knitr::opts_chunk$set(comment = NA, results = 'asis', tidy = F, message = T)
 
 ## Tamanho da amostra
 ### Defesas entre `r min(ficha$ano.def)` e `r max(ficha$ano.def)`
-```{r echo = F, results = 'asis'}
-## Prepacao dos dados
-ficha.alun <- ficha[!duplicated(ficha$aluno),1:7]
-ficha.min <- aggregate(ficha[,c(11,13:24)], by=list(aluno=ficha$aluno), min)
-ficha.min <- cbind(ficha.alun[match(ficha.min$aluno, ficha.alun$aluno),],ficha.min[,-1])
-t1 <- with(ficha.min,addmargins(table(programa, curso)))
-class(t1)<-"matrix"
-t1 <- as.data.frame(t1)
-rownames(t1)[nrow(t1)] <-colnames(t1)[ncol(t1)] <- "Total"
-t1<-cbind(Programa=as.character(rownames(t1)),t1)
-colnames(t1)[2:4]<-c("Mestr", "Dout", "D.Dir")
-tab1<-gvisTable(t1, options=list(width="60%", sort="disable"))
-print(tab1, tag="chart")
+```{r amostra}
+```
+---
+## Qualidade relativa - Mestrado
+```{r QRM}
+```
+---
+
+## Qualidade relativa - Doutorado
+```{r QRD}
 ```
 
 ---

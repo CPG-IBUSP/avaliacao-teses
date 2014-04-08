@@ -3,11 +3,11 @@ title       : Avaliação das tese e dissertações do IB-USP
 subtitle    : 
 author      : Comissão de Pós-Graduação
 job         : Instituto de Biociências da Universidade de São Paulo
-framework   : deckjs        # {io2012, html5slides, shower, dzslides, ...}
+framework   : deckjs        # {deckjs, io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : solarized_light      # 
 widgets     : [bootstrap, quiz, shiny, interactive]# {mathjax, quiz, bootstrap}
-ext_widgets: {rCharts: ["libraries/rickshaw", "libraries/highcharts", "libraries/nvd3", "libraries/morris"]}
+# ext_widgets: {rCharts: ["libraries/rickshaw", "libraries/highcharts", "libraries/nvd3", "libraries/morris"]}
 mode        : selfcontained # {standalone, draft}
 github:
   user: CPG-IBUSP
@@ -32,14 +32,14 @@ github:
 ## Tamanho da amostra
 ### Defesas entre 2011 e 2013
 <!-- Table generated in R 3.0.3 by googleVis 0.4.7 package -->
-<!-- Mon Apr  7 06:57:40 2014 -->
+<!-- Tue Apr  8 02:09:32 2014 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataTableID611829c2b80b () {
+function gvisDataTableID37a679e802bc () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -96,15 +96,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartTableID611829c2b80b() {
-var data = gvisDataTableID611829c2b80b();
+function drawChartTableID37a679e802bc() {
+var data = gvisDataTableID37a679e802bc();
 var options = {};
 options["allowHtml"] = true;
 options["width"] = "60%";
 options["sort"] = "disable";
 
     var chart = new google.visualization.Table(
-    document.getElementById('TableID611829c2b80b')
+    document.getElementById('TableID37a679e802bc')
     );
     chart.draw(data,options);
     
@@ -128,9 +128,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartTableID611829c2b80b);
+callbacks.push(drawChartTableID37a679e802bc);
 })();
-function displayChartTableID611829c2b80b() {
+function displayChartTableID37a679e802bc() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -154,13 +154,22 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID611829c2b80b"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID37a679e802bc"></script>
  
 <!-- divChart -->
   
-<div id="TableID611829c2b80b"
+<div id="TableID37a679e802bc"
   style="width: 60%px; height: 500px;">
 </div>
+
+---
+## Qualidade relativa - Mestrado
+![plot of chunk QRM](assets/fig/QRM.png) 
+
+---
+
+## Qualidade relativa - Doutorado
+![plot of chunk QRD](assets/fig/QRD.png) 
 
 
 ---
