@@ -66,14 +66,14 @@
 
 <!-- Table generated in R 3.0.3 by googleVis 0.4.7 package -->
 
-<!-- Tue Apr  8 02:09:32 2014 -->
+<!-- Wed Apr  9 01:46:27 2014 -->
 
 <!-- jsHeader -->
 
 <script type="text/javascript">
  
 // jsData 
-function gvisDataTableID37a679e802bc () {
+function gvisDataTableID7178427b1cbd () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -130,15 +130,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartTableID37a679e802bc() {
-var data = gvisDataTableID37a679e802bc();
+function drawChartTableID7178427b1cbd() {
+var data = gvisDataTableID7178427b1cbd();
 var options = {};
 options["allowHtml"] = true;
 options["width"] = "60%";
 options["sort"] = "disable";
 
     var chart = new google.visualization.Table(
-    document.getElementById('TableID37a679e802bc')
+    document.getElementById('TableID7178427b1cbd')
     );
     chart.draw(data,options);
     
@@ -162,9 +162,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartTableID37a679e802bc);
+callbacks.push(drawChartTableID7178427b1cbd);
 })();
-function displayChartTableID37a679e802bc() {
+function displayChartTableID7178427b1cbd() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -190,12 +190,12 @@ callbacks.shift()();
 
 <!-- jsChart -->  
 
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID37a679e802bc"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID7178427b1cbd"></script>
  
 
 <!-- divChart -->
 
-<div id="TableID37a679e802bc"
+<div id="TableID7178427b1cbd"
   style="width: 60%px; height: 500px;">
 </div>
 
@@ -211,6 +211,26 @@ callbacks.shift()();
 
 </section>
 <section class="slide " id="slide-6">
+  <h2>Impacto potencial</h2>
+  <p><img src="assets/fig/IMP.png" alt="plot of chunk IMP"> </p>
+
+</section>
+<section class="slide " id="slide-7">
+  <h2>Impacto potencial por programa</h2>
+  <p><img src="assets/fig/IMPP.png" alt="plot of chunk IMPP"> </p>
+
+</section>
+<section class="slide " id="slide-8">
+  <h2>Distribuição das notas</h2>
+  <p><img src="assets/fig/DNOTAS.png" alt="plot of chunk DNOTAS"> </p>
+
+</section>
+<section class="slide " id="slide-9">
+  <h2>Distribuição das notas por titulação</h2>
+  <p><img src="assets/fig/DNOTASP.png" alt="plot of chunk DNOTASP"> </p>
+
+</section>
+<section class="slide " id="slide-10">
   <h2>Planilha de dados</h2>
   <ul>
 <li>Download em formato <a href="./files/ficha.RData">RData</a> (para R)</li>

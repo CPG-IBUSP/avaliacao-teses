@@ -32,14 +32,14 @@ github:
 ## Tamanho da amostra
 ### Defesas entre 2011 e 2013
 <!-- Table generated in R 3.0.3 by googleVis 0.4.7 package -->
-<!-- Tue Apr  8 02:09:32 2014 -->
+<!-- Wed Apr  9 01:46:27 2014 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataTableID37a679e802bc () {
+function gvisDataTableID7178427b1cbd () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -96,15 +96,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartTableID37a679e802bc() {
-var data = gvisDataTableID37a679e802bc();
+function drawChartTableID7178427b1cbd() {
+var data = gvisDataTableID7178427b1cbd();
 var options = {};
 options["allowHtml"] = true;
 options["width"] = "60%";
 options["sort"] = "disable";
 
     var chart = new google.visualization.Table(
-    document.getElementById('TableID37a679e802bc')
+    document.getElementById('TableID7178427b1cbd')
     );
     chart.draw(data,options);
     
@@ -128,9 +128,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartTableID37a679e802bc);
+callbacks.push(drawChartTableID7178427b1cbd);
 })();
-function displayChartTableID37a679e802bc() {
+function displayChartTableID7178427b1cbd() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -154,11 +154,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID37a679e802bc"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID7178427b1cbd"></script>
  
 <!-- divChart -->
   
-<div id="TableID37a679e802bc"
+<div id="TableID7178427b1cbd"
   style="width: 60%px; height: 500px;">
 </div>
 
@@ -170,6 +170,24 @@ callbacks.shift()();
 
 ## Qualidade relativa - Doutorado
 ![plot of chunk QRD](assets/fig/QRD.png) 
+
+---
+## Impacto potencial
+![plot of chunk IMP](assets/fig/IMP.png) 
+
+
+---
+## Impacto potencial por programa
+![plot of chunk IMPP](assets/fig/IMPP.png) 
+
+
+---
+## Distribuição das notas
+![plot of chunk DNOTAS](assets/fig/DNOTAS.png) 
+
+---
+## Distribuição das notas por titulação
+![plot of chunk DNOTASP](assets/fig/DNOTASP.png) 
 
 
 ---

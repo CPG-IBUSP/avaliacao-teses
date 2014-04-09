@@ -17,6 +17,7 @@ github:
 ## Apresentação
 ```{r setup, echo = F, message = F, cache = F}
 require(googleVis)
+require(reshape)
 knitr::opts_chunk$set(comment = NA, results = 'asis', tidy = F, message = T, fig.width=15, echo=FALSE, cache=FALSE)
 knitr::read_chunk("./files/codes.R")
 
@@ -45,6 +46,24 @@ knitr::read_chunk("./files/codes.R")
 
 ## Qualidade relativa - Doutorado
 ```{r QRD}
+```
+---
+## Impacto potencial
+```{r IMP}
+```
+
+---
+## Impacto potencial por programa
+```{r IMPP, width=20}
+```
+
+---
+## Distribuição das notas
+```{r DNOTAS}
+```
+---
+## Distribuição das notas por titulação
+```{r DNOTASP}
 ```
 
 ---
