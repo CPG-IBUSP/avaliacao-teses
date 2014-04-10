@@ -3,72 +3,64 @@ title       : Avaliação das tese e dissertações do IB-USP
 subtitle    : 
 author      : Comissão de Pós-Graduação
 job         : Instituto de Biociências da Universidade de São Paulo
-framework   : deckjs        # {deckjs, io2012, html5slides, shower, dzslides, ...}
-highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : solarized_light      # 
-widgets     : [bootstrap, quiz, shiny, interactive]# {mathjax, quiz, bootstrap}
-# ext_widgets: {rCharts: ["libraries/rickshaw", "libraries/highcharts", "libraries/nvd3", "libraries/morris"]}
-mode        : selfcontained # {standalone, draft}
+framework: bootstrap
+cdn: false
+theme: journal
+widgets: [disqus, userecho]
+highlighter: prettify
+hitheme: twitter-bootstrap
+linenums: true
+disqus:
+  shortname: slidify
+mode: selfcontained
 github:
   user: CPG-IBUSP
   repo: avaliacao-teses
 ---
 
+# Fichas de avaliação das teses e dissertações
+# Comissão de Pós-Graduação do IBUSP
 ## Apresentação
-```{r setup, echo = F, message = F, cache = F}
-require(googleVis)
-require(reshape)
-knitr::opts_chunk$set(comment = NA, results = 'asis', tidy = F, message = T, fig.width=15, echo=FALSE, cache=FALSE)
-knitr::read_chunk("./files/codes.R")
 
-```
----
+A CPG do IBUSP aprovou em sua reunião ordinária de 02/12/2010 uma
+avaliação interna da qualidade das teses e dissertações do IB. Esta
+avaliação foi iniciada em 2011, por meio de uma [ficha](./files/ficha.pdf) que é preenchida
+pelos participantes das bancas de avaliação. A
+ideia é beneficiar-se da presença de especialistas de outras
+instituições que trazemos para as bancas, colocando-os no papel também
+de pareceristas das teses e dissertações. O parecerista não precisa se
+identificar. Com isso, teremos um sistema de avaliação anônimo por
+pares, como em outras ocasiões da vida acadêmica.
 
-## Metodologia
-> - Ficha preenchida pela banca examinadora
-> - Respostas anônimas
-> - Três perguntas:
->   - Qualidade relativa às teses que avaliou/orientou
->   - Impacto potencial do melhor artigo
->   - Excelência em 10 quesitos
+É também importante frisar que o objetivo não é uma avaliação
+individual das dissertações e teses, ou dos alunos e seus
+orientadores. Ao contrário, o objetivo é uma avaliação agregada, do
+conjunto de teses e dissertações. Espera-se, com isso, identificar os
+aspectos de nossas teses e dissertações que demandam
+aperfeiçoamentos. Assim, o que nos interessa são as tendências
+centrais e de variação de todas as teses e dissertações, bem como por
+programa de pós-graduação e por nível de titulação. 
 
----
+## Resultados
 
-## Tamanho da amostra
-### Defesas entre `r min(ficha$ano.def)` e `r max(ficha$ano.def)`
-```{r amostra}
-```
----
-## Qualidade relativa - Mestrado
-```{r QRM}
-```
----
+#### Slides
+- [Dados de todos os programas](slides_geral.html)
+- [Programa de Botânica](slides_botanica.html)
+- [Programa de Ecologia](slides_ecologia.html)
+- [Programa de Fisiologia](slides_fisiologia.html)
+- [Programa de Genética](slides_genetica.html)
+- [Programa de Zoologia](slides_zoologia.html)
 
-## Qualidade relativa - Doutorado
-```{r QRD}
-```
----
-## Impacto potencial
-```{r IMP}
-```
+## Downloads
 
----
-## Impacto potencial por programa
-```{r IMPP, width=20}
-```
-
----
-## Distribuição das notas
-```{r DNOTAS}
-```
----
-## Distribuição das notas por titulação
-```{r DNOTASP}
-```
-
----
-## Planilha de dados
-
-- Download em formato [RData](./files/ficha.RData) (para R)
-- Download em formato [csv](./files/ficha_avaliacao_CPG_IB.csv) (planilhas eletrônicas)
+#### Dados
+- Planilha em formato [RData](./files/ficha.RData) (para R)
+- Planilha em formato [csv](./files/ficha_avaliacao_CPG_IB.csv) (planilhas eletrônicas)
 - [Metadados](./files/metadata.html)
+
+#### Arquivos
+ - [Ficha de avaliação](./files/ficha.pdf)
+
+#### Códigos
+ - [Repositório GitHub](https://github.com/CPG-IBUSP/avaliacao-teses): todos os arquivos acima e códigos 
+das análises e apresentações.

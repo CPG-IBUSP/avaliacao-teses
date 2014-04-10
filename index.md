@@ -3,196 +3,64 @@ title       : Avaliação das tese e dissertações do IB-USP
 subtitle    : 
 author      : Comissão de Pós-Graduação
 job         : Instituto de Biociências da Universidade de São Paulo
-framework   : deckjs        # {deckjs, io2012, html5slides, shower, dzslides, ...}
-highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : solarized_light      # 
-widgets     : [bootstrap, quiz, shiny, interactive]# {mathjax, quiz, bootstrap}
-# ext_widgets: {rCharts: ["libraries/rickshaw", "libraries/highcharts", "libraries/nvd3", "libraries/morris"]}
-mode        : selfcontained # {standalone, draft}
+framework: bootstrap
+cdn: false
+theme: journal
+widgets: [disqus, userecho]
+highlighter: prettify
+hitheme: twitter-bootstrap
+linenums: true
+disqus:
+  shortname: slidify
+mode: selfcontained
 github:
   user: CPG-IBUSP
   repo: avaliacao-teses
 ---
 
+# Fichas de avaliação das teses e dissertações
+# Comissão de Pós-Graduação do IBUSP
 ## Apresentação
 
+A CPG do IBUSP aprovou em sua reunião ordinária de 02/12/2010 uma
+avaliação interna da qualidade das teses e dissertações do IB. Esta
+avaliação foi iniciada em 2011, por meio de uma [ficha](./files/ficha.pdf) que é preenchida
+pelos participantes das bancas de avaliação. A
+ideia é beneficiar-se da presença de especialistas de outras
+instituições que trazemos para as bancas, colocando-os no papel também
+de pareceristas das teses e dissertações. O parecerista não precisa se
+identificar. Com isso, teremos um sistema de avaliação anônimo por
+pares, como em outras ocasiões da vida acadêmica.
 
----
+É também importante frisar que o objetivo não é uma avaliação
+individual das dissertações e teses, ou dos alunos e seus
+orientadores. Ao contrário, o objetivo é uma avaliação agregada, do
+conjunto de teses e dissertações. Espera-se, com isso, identificar os
+aspectos de nossas teses e dissertações que demandam
+aperfeiçoamentos. Assim, o que nos interessa são as tendências
+centrais e de variação de todas as teses e dissertações, bem como por
+programa de pós-graduação e por nível de titulação. 
 
-## Metodologia
-> - Ficha preenchida pela banca examinadora
-> - Respostas anônimas
-> - Três perguntas:
->   - Qualidade relativa às teses que avaliou/orientou
->   - Impacto potencial do melhor artigo
->   - Excelência em 10 quesitos
+## Resultados
 
----
+#### Slides
+- [Dados de todos os programas](slides_geral.html)
+- [Programa de Botânica](slides_botanica.html)
+- [Programa de Ecologia](slides_ecologia.html)
+- [Programa de Fisiologia](slides_fisiologia.html)
+- [Programa de Genética](slides_genetica.html)
+- [Programa de Zoologia](slides_zoologia.html)
 
-## Tamanho da amostra
-### Defesas entre 2011 e 2013
-<!-- Table generated in R 3.0.3 by googleVis 0.4.7 package -->
-<!-- Wed Apr  9 01:49:04 2014 -->
+## Downloads
 
-
-<!-- jsHeader -->
-<script type="text/javascript">
- 
-// jsData 
-function gvisDataTableID717825762e5e () {
-var data = new google.visualization.DataTable();
-var datajson =
-[
- [
- "Bot",
-45,
-18,
-3,
-66 
-],
-[
- "Eco",
-44,
-15,
-2,
-61 
-],
-[
- "Fis",
-33,
-18,
-3,
-54 
-],
-[
- "Gen",
-36,
-40,
-11,
-87 
-],
-[
- "Zoo",
-54,
-26,
-1,
-81 
-],
-[
- "Total",
-212,
-117,
-20,
-349 
-] 
-];
-data.addColumn('string','Programa');
-data.addColumn('number','Mestr');
-data.addColumn('number','Dout');
-data.addColumn('number','D.Dir');
-data.addColumn('number','Total');
-data.addRows(datajson);
-return(data);
-}
- 
-// jsDrawChart
-function drawChartTableID717825762e5e() {
-var data = gvisDataTableID717825762e5e();
-var options = {};
-options["allowHtml"] = true;
-options["width"] = "60%";
-options["sort"] = "disable";
-
-    var chart = new google.visualization.Table(
-    document.getElementById('TableID717825762e5e')
-    );
-    chart.draw(data,options);
-    
-
-}
-  
- 
-// jsDisplayChart
-(function() {
-var pkgs = window.__gvisPackages = window.__gvisPackages || [];
-var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
-var chartid = "table";
-  
-// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
-var i, newPackage = true;
-for (i = 0; newPackage && i < pkgs.length; i++) {
-if (pkgs[i] === chartid)
-newPackage = false;
-}
-if (newPackage)
-  pkgs.push(chartid);
-  
-// Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartTableID717825762e5e);
-})();
-function displayChartTableID717825762e5e() {
-  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
-  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
-  window.clearTimeout(window.__gvisLoad);
-  // The timeout is set to 100 because otherwise the container div we are
-  // targeting might not be part of the document yet
-  window.__gvisLoad = setTimeout(function() {
-  var pkgCount = pkgs.length;
-  google.load("visualization", "1", { packages:pkgs, callback: function() {
-  if (pkgCount != pkgs.length) {
-  // Race condition where another setTimeout call snuck in after us; if
-  // that call added a package, we must not shift its callback
-  return;
-}
-while (callbacks.length > 0)
-callbacks.shift()();
-} });
-}, 100);
-}
- 
-// jsFooter
-</script>
- 
-<!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID717825762e5e"></script>
- 
-<!-- divChart -->
-  
-<div id="TableID717825762e5e"
-  style="width: 60%px; height: 500px;">
-</div>
-
----
-## Qualidade relativa - Mestrado
-![plot of chunk QRM](assets/fig/QRM.png) 
-
----
-
-## Qualidade relativa - Doutorado
-![plot of chunk QRD](assets/fig/QRD.png) 
-
----
-## Impacto potencial
-![plot of chunk IMP](assets/fig/IMP.png) 
-
-
----
-## Impacto potencial por programa
-![plot of chunk IMPP](assets/fig/IMPP.png) 
-
-
----
-## Distribuição das notas
-![plot of chunk DNOTAS](assets/fig/DNOTAS.png) 
-
----
-## Distribuição das notas por titulação
-![plot of chunk DNOTASP](assets/fig/DNOTASP.png) 
-
-
----
-## Planilha de dados
-
-- Download em formato [RData](./files/ficha.RData) (para R)
-- Download em formato [csv](./files/ficha_avaliacao_CPG_IB.csv) (planilhas eletrônicas)
+#### Dados
+- Planilha em formato [RData](./files/ficha.RData) (para R)
+- Planilha em formato [csv](./files/ficha_avaliacao_CPG_IB.csv) (planilhas eletrônicas)
 - [Metadados](./files/metadata.html)
+
+#### Arquivos
+ - [Ficha de avaliação](./files/ficha.pdf)
+
+#### Códigos
+ - [Repositório GitHub](https://github.com/CPG-IBUSP/avaliacao-teses): todos os arquivos acima e códigos 
+das análises e apresentações.
