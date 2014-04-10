@@ -44,12 +44,12 @@ programa de pós-graduação e por nível de titulação.
 ## Resultados
 
 #### Slides
-- [Dados de todos os programas](slides_geral.html)
-- [Programa de Botânica](slides_botanica.html)
-- [Programa de Ecologia](slides_ecologia.html)
-- [Programa de Fisiologia](slides_fisiologia.html)
-- [Programa de Genética](slides_genetica.html)
-- [Programa de Zoologia](slides_zoologia.html)
+- [Dados de todos os programas](./geral/slides_geral.html)
+- [Programa de Botânica](./botanica/slides_botanica.html)
+- [Programa de Ecologia](./ecologia/slides_ecologia.html)
+- [Programa de Fisiologia](./fisiologia/slides_fisiologia.html)
+- [Programa de Genética](./genetica/slides_genetica.html)
+- [Programa de Zoologia](./zoologia/slides_zoologia.html)
 
 ## Downloads
 
