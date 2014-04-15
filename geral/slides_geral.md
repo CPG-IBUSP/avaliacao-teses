@@ -1,14 +1,17 @@
 ---
 
-title       : Avaliação das tese e dissertações do IB-USP
+title       : Avaliação das teses e dissertações
 subtitle    : Dados agregados de todos os programas
 author      : Comissão de Pós-Graduação
 job         : Instituto de Biociências da Universidade de São Paulo
-framework   : deckjs        # {deckjs, io2012, html5slides, shower, dzslides, ...}
-highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : solarized_light      # 
-widgets     : [bootstrap, quiz, shiny, interactive]# {mathjax, quiz, bootstrap}
+widgets     : [bootstrap, interactive]# {mathjax, quiz, bootstrap}
+framework   : io2012        # {deckjs, io2012, html5slides, shower, dzslides, ...}
+hitheme: tomorrow
+logo: logo_ib_transparente_small.png
+biglogo: logo_ib_transparente.png
 mode        : selfcontained # {standalone, draft}
+assets: {js: 'test.js'}
+url: {lib: ./libraries}
 github:
   user: CPG-IBUSP
   repo: avaliacao-teses
@@ -20,35 +23,31 @@ github:
 
 
 
-## RESULTADOS AGREGADOS:
+## NAVEGAÇÃO:
 
-### Análises da ficha de avaliação de teses e dissertações, dados agregados de todos os programas do IB-USP.
-
-#### Links
- - Para menu de slides pressione 'm'
+ - Para menu de slides pressione 'o'
+ - Para legenda dos gráficos pressione 'p'
  - [Página principal](../index.html)
  - Resultados por programa:
- - Resultados dos outros programas:
    - [Botânica](../botanica/slides_botanica.html)
    - [Ecologia](../ecologia/slides_ecologia.html)
    - [Fisiologia](../fisiologia/slides_fisiologia.html)
    - [Genética](../genetica/slides_genetica.html)
    - [Zoologia](../zoologia/slides_zoologia.html)
 
-
 ---
 
 ## Tamanho da amostra
 ### Defesas entre 2011 e 2013
-<!-- Table generated in R 3.0.3 by googleVis 0.4.7 package -->
-<!-- Thu Apr 10 04:23:49 2014 -->
+<!-- Table generated in R 3.1.0 by googleVis 0.5.1 package -->
+<!-- Tue Apr 15 01:57:58 2014 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataTableID3ca049da1241 () {
+function gvisDataTableIDaf041eeb97 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -105,15 +104,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartTableID3ca049da1241() {
-var data = gvisDataTableID3ca049da1241();
+function drawChartTableIDaf041eeb97() {
+var data = gvisDataTableIDaf041eeb97();
 var options = {};
 options["allowHtml"] = true;
 options["width"] = "60%";
 options["sort"] = "disable";
 
     var chart = new google.visualization.Table(
-    document.getElementById('TableID3ca049da1241')
+    document.getElementById('TableIDaf041eeb97')
     );
     chart.draw(data,options);
     
@@ -137,9 +136,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartTableID3ca049da1241);
+callbacks.push(drawChartTableIDaf041eeb97);
 })();
-function displayChartTableID3ca049da1241() {
+function displayChartTableIDaf041eeb97() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -163,11 +162,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID3ca049da1241"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableIDaf041eeb97"></script>
  
 <!-- divChart -->
   
-<div id="TableID3ca049da1241"
+<div id="TableIDaf041eeb97"
   style="width: 60%px; height: 500px;">
 </div>
 
@@ -186,11 +185,54 @@ o presente trabalho enquadra-se:
 ## Qualidade relativa - Mestrado
 ![plot of chunk QualiRelM](assets/fig/QualiRelM.png) 
 
+
+*** =pnotes
+
+**Número de teses/dissertações defendidas entre
+ 2011 e 2013, por classe de qualidade.**
+
+A avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram a qualidade do trabalho relativa a todos que 
+já orientou ou avaliou, entre quatro classes:
+
+- Abaixo dos 50% melhores que já avaliou/orientou
+- Entre os 50% melhores
+- Entre os 25% melhores
+- Entre os 10% melhores
+
+Quando houve resposta de mais de um avaliador, foi considerada 
+a categoria de menor qualidade, entre as indicadas.
+
+Também indicado o número esperado em cada categoria se o conjunto avaliado
+e o já conhecido pela banca forem iguais em qualidade.
+
+
+
 ---
 
 ## Qualidade relativa - Doutorado
 ![plot of chunk QualiRelD](assets/fig/QualiRelD.png) 
 
+
+*** =pnotes
+
+**Número de teses/dissertações defendidas entre
+ 2011 e 2013, por classe de qualidade.**
+
+A avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram a qualidade do trabalho relativa a todos que 
+já orientou ou avaliou, entre quatro classes:
+
+- Abaixo dos 50% melhores que já avaliou/orientou
+- Entre os 50% melhores
+- Entre os 25% melhores
+- Entre os 10% melhores
+
+Quando houve resposta de mais de um avaliador, foi considerada 
+a categoria de menor qualidade, entre as indicadas.
+
+Também indicado o número esperado em cada categoria se o conjunto avaliado
+e o já conhecido pela banca forem iguais em qualidade.
 
 ---
 
@@ -208,6 +250,23 @@ publicado em periódico em qual categoria de fator de impacto em sua
 
 ## Impacto potencial
 ![plot of chunk ImpactoMD](assets/fig/ImpactoMD.png) 
+
+
+*** =pnotes
+
+**Proporção de teses e dissertações defendidas entre  2011 e 2013 , 
+por classe de impacto.**
+
+A avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram o impacto potencial da melhor publicação resultante da tese/dissertação, entre quatro classes:
+
+- Há baixa chance de publicação 
+- Impacto baixo 
+- Impacto médio
+- Impacto alto
+
+Quando houve resposta de mais de um avaliador, foi considerada 
+a categoria mais baixa entre as indicadas.
 
 ---
 
@@ -241,10 +300,48 @@ aplique ou marque mais de uma se achar adequado.
 ## Distribuição das notas
 ![plot of chunk DensityNotas](assets/fig/DensityNotas.png) 
 
+
+*** =pnotes
+
+**Distribuição das notas das dissertações de mestrado e teses de doutorado 
+defendidas entre  2011 e 2013 .**
+
+A avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa: 
+redação, contextualização teórica, objetivos bem definidos, pergunta/hipóteses claras, 
+originalidade e relevância, métodos bem descritos e adequados, 
+análises bem descritas e adequadas, 
+resultados bem apresentados e conclusivos, discussão lógica e bem fundamentada, uso adequado da literatura.
+
+As notas são as médias do número de indicações por tese/dissertação.
+As curvas são [kernels de densidade probabilística](http://en.wikipedia.org/wiki/Kernel_density_estimation), 
+uma alternativa preferível a histogramas
+para representar distribuições de frequência.
+
+
 ---
 
 ## Proporção de indicações por item
 ![plot of chunk DotplotMD](assets/fig/DotplotMD.png) 
+
+
+*** =pnotes
+
+**Proporção de teses e dissertações consideradas excelentes em dez quesitos
+( defesas entre 2011 e 2013 ).**
+
+Avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa: 
+redação, contextualização teórica, objetivos bem definidos, pergunta/hipóteses claras, 
+originalidade e relevância, métodos bem descritos e adequados, 
+análises bem descritas e adequadas, 
+resultados bem apresentados e conclusivos, discussão lógica e bem fundamentada, uso adequado da literatura.
+
+Para o cálculo das proporções, primeiro foram obtidas as médias de indicações de excelência  
+em cada quesito, por aluno. Em seguida foi calculada a média desses valores para os mestrados e doutorados, para cada item.
+
+
+
 
 ---
 
@@ -252,11 +349,45 @@ aplique ou marque mais de uma se achar adequado.
 
 ![plot of chunk DotplotExtratoM](assets/fig/DotplotExtratoM.png) 
 
+***=pnotes
+
+**Proporção de teses e dissertações consideradas excelentes em dez quesitos: 
+comparação entre os melhores trabalhos e os demais. 
+(Defesas entres 2011 e 2013 )**
+
+Avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 
+(detalhes nos slides anteriores).
+Para o cálculo das proporções, primeiro foram obtidas as médias de indicações de excelência  
+em cada quesito, por aluno. Em seguida foi calculada a média desses valores para dois grupos:
+
+- **Primeiros quartis**: abaixo dos 25% melhores trabalhos já avaliados pelo membro da banca;
+- **Último quartil**: entre os 25% ou 10% melhores trabalhos já avaliados pelo membro da banca.
+
+
+
+
 ---
 
 ## Quartis de qualidade (Doutorado)
 
 ![plot of chunk DotplotExtratoD](assets/fig/DotplotExtratoD.png) 
+
+***=pnotes
+
+**Proporção de teses e dissertações consideradas excelentes em dez quesitos: 
+comparação entre os melhores trabalhos e os demais. 
+(Defesas entres 2011 e 2013 )**
+
+Avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 
+(detalhes nos slides anteriores).
+Para o cálculo das proporções, primeiro foram obtidas as médias de indicações de excelência  
+em cada quesito, por aluno. Em seguida foi calculada a média desses valores para dois grupos:
+
+- **Primeiros quartis**: abaixo dos 25% melhores trabalhos já avaliados pelo membro da banca;
+- **Último quartil**: entre os 25% ou 10% melhores trabalhos já avaliados pelo membro da banca.
+
 
 
 ---
@@ -264,9 +395,42 @@ aplique ou marque mais de uma se achar adequado.
 ## Prazo de depósito e nota (Mestrado)
 ![plot of chunk TempoNotaM](assets/fig/TempoNotaM.png) 
 
+***=pnotes
+
+**Notas das dissertações e teses 
+defendidas entre 2011 e 2013, em função do tempo de conclusão.**
+
+Avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 
+(itens detalhados nos slides anteriores).
+As notas são as médias do número de indicações por tese/dissertação, de três grupos:
+
+- Atrasado: tese/dissertação depositada após mais de 30 dias do prazo regimental.
+- No prazo: depositada entre 30 dias após a 10 dias antes do prazo.
+- Adiantado: depósito com antecedência de mais de 10 dias do prazo.
+
+Os atrasos devem-se a prorrogações e trancamentos, que  
+ultrapassam os prazos regimentais. 
 
 ---
 
 ## Prazo de depósito e nota (Doutorado)
 ![plot of chunk TempoNotaD](assets/fig/TempoNotaD.png) 
+
+***=pnotes
+
+**Notas das dissertações e teses 
+defendidas entre 2011 e 2013, em função do tempo de conclusão.**
+
+Avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 
+(itens detalhados nos slides anteriores).
+As notas são as médias do número de indicações por tese/dissertação, de três grupos:
+
+- Atrasado: tese/dissertação depositada após mais de 30 dias do prazo regimental.
+- No prazo: depositada entre 30 dias após a 10 dias antes do prazo.
+- Adiantado: depósito com antecedência de mais de 10 dias do prazo.
+
+Os atrasos devem-se a prorrogações e trancamentos, que  
+ultrapassam os prazos regimentais. 
 

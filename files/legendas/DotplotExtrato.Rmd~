@@ -1,0 +1,14 @@
+**Proporção de teses e dissertações defendidas no IBUSP consideradas excelentes em dez quesitos: 
+comparação entre os melhores trabalhos e os demais
+( `r min(ficha$ano.def)` - `r max(ficha$ano.def)` ).**
+
+Avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 
+(detalhes nos slides anteriores).
+Para o cálculo das proporções, primeiro foram obtidas as médias de indicações de excelência  
+em cada quesito, por aluno. Em seguida foi calculada a média desses valores para dois grupos:
+
+- **Primeiros quartis**: abaixo dos 25% melhores trabalhos já avaliados pelo membro da banca;
+- **Último quartil**: entre os 25% ou 10% melhores trabalhos já avaliados pelo membro da banca.
+
+

@@ -1,0 +1,13 @@
+**Proporção de teses e dissertações defendidas no IBUSP por classe de impacto 
+( `r min(ficha$ano.def)` - `r max(ficha$ano.def)` ).**
+
+A avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram o impacto potencial da melhor publicação resultante da tese/dissertação, entre quatro classes:
+
+- Há baixa chance de publicação 
+- Impacto baixo 
+- Impacto médio
+- Impacto alto
+
+Quando houve resposta de mais de um avaliador, foi considerada 
+a categoria mais baixa entre as indicadas.

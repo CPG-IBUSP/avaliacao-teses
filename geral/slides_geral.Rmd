@@ -1,14 +1,17 @@
 ---
 
-title       : Avaliação das tese e dissertações do IB-USP
+title       : Avaliação das teses e dissertações
 subtitle    : Dados agregados de todos os programas
 author      : Comissão de Pós-Graduação
 job         : Instituto de Biociências da Universidade de São Paulo
-framework   : deckjs        # {deckjs, io2012, html5slides, shower, dzslides, ...}
-highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : solarized_light      # 
-widgets     : [bootstrap, quiz, shiny, interactive]# {mathjax, quiz, bootstrap}
+widgets     : [bootstrap, interactive]# {mathjax, quiz, bootstrap}
+framework   : io2012        # {deckjs, io2012, html5slides, shower, dzslides, ...}
+hitheme: tomorrow
+logo: logo_ib_transparente_small.png
+biglogo: logo_ib_transparente.png
 mode        : selfcontained # {standalone, draft}
+assets: {js: 'test.js'}
+url: {lib: ./libraries}
 github:
   user: CPG-IBUSP
   repo: avaliacao-teses
@@ -20,28 +23,24 @@ github:
 require(googleVis)
 require(reshape)
 require(lattice)
-knitr::opts_chunk$set(comment = NA, results = 'asis', tidy = F, message = T, fig.width=15, echo=FALSE, cache=FALSE)
+knitr::opts_chunk$set(comment = NA, results = 'asis', tidy = F, message = T, fig.width=15, echo=FALSE, cache=FALSE, warning=FALSE)
 knitr::read_chunk("../files/codes.R")
 ## Leitura dos dados: cada linha = uma ficha
 load("../files/ficha.RData")
 ```
 ```{r prep}
 ```
-## RESULTADOS AGREGADOS:
+## NAVEGAÇÃO:
 
-### Análises da ficha de avaliação de teses e dissertações, dados agregados de todos os programas do IB-USP.
-
-#### Links
- - Para menu de slides pressione 'm'
+ - Para menu de slides pressione 'o'
+ - Para legenda dos gráficos pressione 'p'
  - [Página principal](../index.html)
  - Resultados por programa:
- - Resultados dos outros programas:
    - [Botânica](../botanica/slides_botanica.html)
    - [Ecologia](../ecologia/slides_ecologia.html)
    - [Fisiologia](../fisiologia/slides_fisiologia.html)
    - [Genética](../genetica/slides_genetica.html)
    - [Zoologia](../zoologia/slides_zoologia.html)
-
 
 ---
 
@@ -64,12 +63,21 @@ o presente trabalho enquadra-se:
 ## Qualidade relativa - Mestrado
 ```{r QualiRelM}
 ```
+
+*** =pnotes
+```{r, child="../files/legendas/QualiRel.Rmd"}
+```
+
+
 ---
 
 ## Qualidade relativa - Doutorado
 ```{r QualiRelD}
 ```
 
+*** =pnotes
+```{r, child="../files/legendas/QualiRel.Rmd"}
+```
 ---
 
 ## Pergunta sobre impacto potencial
@@ -86,6 +94,10 @@ publicado em periódico em qual categoria de fator de impacto em sua
 
 ## Impacto potencial
 ```{r ImpactoMD}
+```
+
+*** =pnotes
+```{r, child="../files/legendas/Impacto.Rmd"}
 ```
 ---
 
@@ -119,32 +131,52 @@ aplique ou marque mais de uma se achar adequado.
 ## Distribuição das notas
 ```{r DensityNotas}
 ```
+
+*** =pnotes
+```{r, child="../files/legendas/DensityNotas.Rmd"}
+```
 ---
 
 ## Proporção de indicações por item
 ```{r DotplotMD}
 ```
+
+*** =pnotes
+```{r, child="../files/legendas/Dotplot.Rmd"}
+```
+
 ---
 
 ## Quartis de qualidade (Mestrado)
 
 ```{r DotplotExtratoM}
 ```
+***=pnotes
+```{r, child="../files/legendas/DotplotExtrato.Rmd"}
+```
+
 ---
 
 ## Quartis de qualidade (Doutorado)
 
 ```{r DotplotExtratoD}
 ```
-
+***=pnotes
+```{r, child="../files/legendas/DotplotExtrato.Rmd"}
+```
 ---
 
 ## Prazo de depósito e nota (Mestrado)
 ```{r TempoNotaM}
 ```
-
+***=pnotes
+```{r, child="../files/legendas/TempoNota.Rmd"}
+```
 ---
 
 ## Prazo de depósito e nota (Doutorado)
 ```{r TempoNotaD}
+```
+***=pnotes
+```{r, child="../files/legendas/TempoNota.Rmd"}
 ```

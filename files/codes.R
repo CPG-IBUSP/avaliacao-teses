@@ -243,21 +243,21 @@ legend("topleft", c("Total", "Mestrado", "Doutorado"),
 
 ## @knitr DotplotMD
 ## Dotplot de Proporcao media de indicacoes por item e titulo
-#trellis.par.set(superpose.line=list(lwd=2),
-#                superpose.symbol=list(pch=19, cex=2.5))
+trellis.par.set(superpose.line=list(lwd=2),
+                superpose.symbol=list(pch=19, cex=2.5))
 f5(data=ficha.mean.t, g.id=1, auto.key=list(cex=1.8, columns=2),
    superpose.line=list(lwd=2), superpose.symbol=list(pch=19, cex=2.5)) 
 
 ## @knitr DotplotExtratoM
 ##dotplot de proporcao de indicacoes por item nos mestrados no ultimo quartil de qualidade contra as demais
-#trellis.par.set(superpose.line=list(lwd=2), superpose.symbol=list(pch=19, cex=2.5))
+trellis.par.set(superpose.line=list(lwd=2), superpose.symbol=list(pch=19, cex=2.5))
 f5(data=subset(ficha.mean.te, ficha.mean.te$titulo=="Mestrado"), g.id=2,
    auto.key=list(text=c("Primeiros quartis",
                      "Último quartil"),cex=1.8, columns=2))
 
 ## @knitr DotplotExtratoD
 ##dotplot de proporcao de indicacoes por item nos doutorados no ultimo quartil de qualidade contra as demais
-#trellis.par.set(superpose.line=list(lwd=2), superpose.symbol=list(pch=19, cex=2.5))
+trellis.par.set(superpose.line=list(lwd=2), superpose.symbol=list(pch=19, cex=2.5))
 f5(data=subset(ficha.mean.te, ficha.mean.tn$titulo=="Doutorado"), g.id=2,
    auto.key=list(text=c("Primeiros quartis", "Último quartil"),
        cex=1.8, columns=2), superpose.line=list(lwd=2),

@@ -1,0 +1,14 @@
+**Proporção de teses e dissertações defendidas no IBUSP consideradas excelentes em dez quesitos
+( `r min(ficha$ano.def)` - `r max(ficha$ano.def)` ).**
+
+Avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa: 
+redação, contextualização teórica, objetivos bem definidos, pergunta/hipóteses claras, 
+originalidade e relevância, métodos bem descritos e adequados, 
+análises bem descritas e adequadas, 
+resultados bem apresentados e conclusivos, discussão lógica e bem fundamentada, uso adequado da literatura.
+
+Para o cálculo das proporções, primeiro foram obtidas as médias de indicações de excelência  
+em cada quesito, por aluno. Em seguida foi calculada a média desses valores para os mestrados e doutorados, para cada item.
+
+
