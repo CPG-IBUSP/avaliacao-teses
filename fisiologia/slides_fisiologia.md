@@ -28,7 +28,7 @@ github:
  - Para menu de slides pressione 'o'
  - Para legenda dos gráficos pressione 'p'
  - [Página principal](../index.html)
- - [Resultados de agregados](../geral/slides_geral.html)
+ - [Resultados agregados](../geral/slides_geral.html)
  - Resultados dos outros programas:
    - [Botânica](../botanica/slides_botanica.html)
    - [Ecologia](../ecologia/slides_ecologia.html)
