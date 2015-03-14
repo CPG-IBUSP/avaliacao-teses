@@ -27,7 +27,7 @@ knitr::opts_chunk$set(comment = NA, results = 'asis', tidy = F, message = T, fig
 knitr::read_chunk("../files/codes.R")
 ## Leitura dos dados: cada linha = uma ficha
 load("../files/ficha.RData")
-```
+
 ```{r prep}
 ```
 ## NAVEGAÇÃO:
@@ -46,8 +46,10 @@ load("../files/ficha.RData")
 
 ## Tamanho da amostra
 ### Defesas entre `r min(ficha$ano.def)` e `r max(ficha$ano.def)`
+
 ```{r Amostra}
 ```
+
 ---
 
 ## Pergunta sobre qualidade relativa
@@ -78,6 +80,7 @@ o presente trabalho enquadra-se:
 *** =pnotes
 ```{r, child="../files/legendas/QualiRel.Rmd"}
 ```
+
 ---
 
 ## Pergunta sobre impacto potencial
@@ -99,6 +102,7 @@ publicado em periódico em qual categoria de fator de impacto em sua
 *** =pnotes
 ```{r, child="../files/legendas/Impacto.Rmd"}
 ```
+
 ---
 
 ## Pergunta sobre itens de destaque
@@ -135,6 +139,7 @@ aplique ou marque mais de uma se achar adequado.
 *** =pnotes
 ```{r, child="../files/legendas/DensityNotas.Rmd"}
 ```
+
 ---
 
 ## Proporção de indicações por item
@@ -164,6 +169,7 @@ aplique ou marque mais de uma se achar adequado.
 ***=pnotes
 ```{r, child="../files/legendas/DotplotExtrato.Rmd"}
 ```
+
 ---
 
 ## Prazo de depósito e nota (Mestrado)
@@ -172,6 +178,7 @@ aplique ou marque mais de uma se achar adequado.
 ***=pnotes
 ```{r, child="../files/legendas/TempoNota.Rmd"}
 ```
+
 ---
 
 ## Prazo de depósito e nota (Doutorado)

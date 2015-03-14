@@ -22,8 +22,6 @@ github:
 
 
 
-
-
 ## NAVEGAÇÃO:
 
  - Para menu de slides pressione 'o'
@@ -40,11 +38,11 @@ github:
 
 ## Tamanho da amostra
 
-### Defesas entre 2011 e 2013:
+### Defesas entre 2011 e 2014:
 
-- Total: 61  
-  - Mestrados: 44
-  - Doutorados: 15
+- Total: 78  
+  - Mestrados: 56
+  - Doutorados: 20
   - Doutorados diretos: 2
 
 ---
@@ -61,13 +59,12 @@ o presente trabalho enquadra-se:
 ---
 
 ## Qualidade relativa - Mestrado
-![plot of chunk QualiRelM](assets/fig/QualiRelM.png) 
-
+![plot of chunk QualiRelM](assets/fig/QualiRelM-1.png) 
 
 *** =pnotes
 
 **Número de teses/dissertações defendidas entre
- 2011 e 2013, por classe de qualidade.**
+ 2011 e 2014, por classe de qualidade.**
 
 A avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram a qualidade do trabalho relativa a todos que 
@@ -85,17 +82,15 @@ Também indicado o número esperado em cada categoria se o conjunto avaliado
 e o já conhecido pela banca forem iguais em qualidade.
 
 
-
 ---
 
 ## Qualidade relativa - Doutorado
-![plot of chunk QualiRelD](assets/fig/QualiRelD.png) 
-
+![plot of chunk QualiRelD](assets/fig/QualiRelD-1.png) 
 
 *** =pnotes
 
 **Número de teses/dissertações defendidas entre
- 2011 e 2013, por classe de qualidade.**
+ 2011 e 2014, por classe de qualidade.**
 
 A avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram a qualidade do trabalho relativa a todos que 
@@ -127,12 +122,11 @@ publicado em periódico em qual categoria de fator de impacto em sua
 ---
 
 ## Impacto potencial
-![plot of chunk ImpactoMD](assets/fig/ImpactoMD.png) 
-
+![plot of chunk ImpactoMD](assets/fig/ImpactoMD-1.png) 
 
 *** =pnotes
 
-**Proporção de teses e dissertações defendidas entre  2011 e 2013 , 
+**Proporção de teses e dissertações defendidas entre  2011 e 2014 , 
 por classe de impacto.**
 
 A avaliação anônima feita pelos participantes das bancas de defesa, 
@@ -176,13 +170,12 @@ aplique ou marque mais de uma se achar adequado.
 ---
 
 ## Distribuição das notas
-![plot of chunk DensityNotas](assets/fig/DensityNotas.png) 
-
+![plot of chunk DensityNotas](assets/fig/DensityNotas-1.png) 
 
 *** =pnotes
 
 **Distribuição das notas das dissertações de mestrado e teses de doutorado 
-defendidas entre  2011 e 2013 .**
+defendidas entre  2011 e 2014 .**
 
 A avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa: 
@@ -200,13 +193,12 @@ para representar distribuições de frequência.
 ---
 
 ## Proporção de indicações por item
-![plot of chunk DotplotMD](assets/fig/DotplotMD.png) 
-
+![plot of chunk DotplotMD](assets/fig/DotplotMD-1.png) 
 
 *** =pnotes
 
 **Proporção de teses e dissertações consideradas excelentes em dez quesitos
-( defesas entre 2011 e 2013 ).**
+( defesas entre 2011 e 2014 ).**
 
 Avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa: 
@@ -220,18 +212,16 @@ em cada quesito, por aluno. Em seguida foi calculada a média desses valores par
 
 
 
-
 ---
 
 ## Quartis de qualidade (Mestrado)
 
-![plot of chunk DotplotExtratoM](assets/fig/DotplotExtratoM.png) 
-
+![plot of chunk DotplotExtratoM](assets/fig/DotplotExtratoM-1.png) 
 ***=pnotes
 
 **Proporção de teses e dissertações consideradas excelentes em dez quesitos: 
 comparação entre os melhores trabalhos e os demais. 
-(Defesas entres 2011 e 2013 )**
+(Defesas entres 2011 e 2014 )**
 
 Avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 
@@ -244,18 +234,16 @@ em cada quesito, por aluno. Em seguida foi calculada a média desses valores par
 
 
 
-
 ---
 
 ## Quartis de qualidade (Doutorado)
 
-![plot of chunk DotplotExtratoD](assets/fig/DotplotExtratoD.png) 
-
+![plot of chunk DotplotExtratoD](assets/fig/DotplotExtratoD-1.png) 
 ***=pnotes
 
 **Proporção de teses e dissertações consideradas excelentes em dez quesitos: 
 comparação entre os melhores trabalhos e os demais. 
-(Defesas entres 2011 e 2013 )**
+(Defesas entres 2011 e 2014 )**
 
 Avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 
@@ -271,12 +259,11 @@ em cada quesito, por aluno. Em seguida foi calculada a média desses valores par
 ---
 
 ## Prazo de depósito e nota (Mestrado)
-![plot of chunk TempoNotaM](assets/fig/TempoNotaM.png) 
-
+![plot of chunk TempoNotaM](assets/fig/TempoNotaM-1.png) 
 ***=pnotes
 
 **Notas das dissertações e teses 
-defendidas entre 2011 e 2013, em função do tempo de conclusão.**
+defendidas entre 2011 e 2014, em função do tempo de conclusão.**
 
 Avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 
@@ -293,12 +280,11 @@ ultrapassam os prazos regimentais.
 ---
 
 ## Prazo de depósito e nota (Doutorado)
-![plot of chunk TempoNotaD](assets/fig/TempoNotaD.png) 
-
+![plot of chunk TempoNotaD](assets/fig/TempoNotaD-1.png) 
 ***=pnotes
 
 **Notas das dissertações e teses 
-defendidas entre 2011 e 2013, em função do tempo de conclusão.**
+defendidas entre 2011 e 2014, em função do tempo de conclusão.**
 
 Avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 
@@ -311,4 +297,3 @@ As notas são as médias do número de indicações por tese/dissertação, de t
 
 Os atrasos devem-se a prorrogações e trancamentos, que  
 ultrapassam os prazos regimentais. 
-

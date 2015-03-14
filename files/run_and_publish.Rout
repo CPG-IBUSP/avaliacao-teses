@@ -1,5 +1,5 @@
 
-R version 3.1.0 (2014-04-10) -- "Spring Dance"
+R version 3.1.2 (2014-10-31) -- "Pumpkin Helmet"
 Copyright (C) 2014 The R Foundation for Statistical Computing
 Platform: x86_64-unknown-linux-gnu (64-bit)
 
@@ -18,6 +18,16 @@ Digite 'q()' para sair do R.
 [Área de trabalho anterior carregada]
 
 > library(slidify)
+> slidify("../index.Rmd")
+
+
+processing file: index.Rmd
+  |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
+  ordinary text without R code
+
+
+output file: index.md
+
 > slidify("../geral/slides_geral.Rmd")
 
 
@@ -34,55 +44,39 @@ List of 3
 
 Loading required package: googleVis
 
-Welcome to googleVis version 0.5.1
+Welcome to googleVis version 0.5.8
 
 Please read the Google API Terms of Use
-before you use the package:
+before you start using the package:
 https://developers.google.com/terms/
 
 Note, the plot method of googleVis will by default use
 the standard browser to display its output.
 
-See the googleVis package vignettes for more details.
+See the googleVis package vignettes for more details,
+or visit http://github.com/mages/googleVis.
 
-To suppress the this message use:
+To suppress this message use:
 suppressPackageStartupMessages(library(googleVis))
 
 Loading required package: reshape
-Loading required package: plyr
-
-Attaching package: 'reshape'
-
-The following objects are masked from 'package:plyr':
-
-    rename, round_any
-
 Loading required package: lattice
   |                                                                         |.....                                                            |   7%
-  ordinary text without R code
-
-  |                                                                         |......                                                           |   9%
 label: prep
-  |                                                                         |........                                                         |  12%
+  |                                                                         |......                                                           |  10%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-  |                                                                         |.........                                                        |  14%
+  |                                                                         |........                                                         |  12%
 label: Amostra
-  |                                                                         |...........                                                      |  16%
+  |                                                                         |..........                                                       |  15%
   ordinary text without R code
 
-  |                                                                         |............                                                     |  19%
+  |                                                                         |...........                                                      |  17%
 label: QualiRelM
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |..............                                                   |  21%
+  |                                                                         |.............                                                    |  20%
   ordinary text without R code
 
-  |                                                                         |...............                                                  |  23%
+  |                                                                         |..............                                                   |  22%
 label: unnamed-chunk-1 (with options) 
 List of 1
  $ child: chr "../files/legendas/QualiRel.Rmd"
@@ -93,22 +87,16 @@ processing file: ./../files/legendas/QualiRel.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |.................                                                |  26%
+  |                                                                         |................                                                 |  24%
   ordinary text without R code
 
-  |                                                                         |..................                                               |  28%
+  |                                                                         |.................                                                |  27%
 label: QualiRelD
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |....................                                             |  30%
+  |                                                                         |...................                                              |  29%
   ordinary text without R code
 
-  |                                                                         |.....................                                            |  33%
+  |                                                                         |.....................                                            |  32%
 label: unnamed-chunk-2 (with options) 
 List of 1
  $ child: chr "../files/legendas/QualiRel.Rmd"
@@ -119,22 +107,16 @@ processing file: ./../files/legendas/QualiRel.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |.......................                                          |  35%
+  |                                                                         |......................                                           |  34%
   ordinary text without R code
 
   |                                                                         |........................                                         |  37%
 label: ImpactoMD
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |..........................                                       |  40%
+  |                                                                         |.........................                                        |  39%
   ordinary text without R code
 
-  |                                                                         |...........................                                      |  42%
+  |                                                                         |...........................                                      |  41%
 label: unnamed-chunk-3 (with options) 
 List of 1
  $ child: chr "../files/legendas/Impacto.Rmd"
@@ -145,15 +127,11 @@ processing file: ./../files/legendas/Impacto.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
   |                                                                         |.............................                                    |  44%
   ordinary text without R code
 
-  |                                                                         |..............................                                   |  47%
+  |                                                                         |..............................                                   |  46%
 label: DensityNotas
   |                                                                         |................................                                 |  49%
   ordinary text without R code
@@ -169,20 +147,16 @@ processing file: ./../files/legendas/DensityNotas.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |...................................                              |  53%
+  |                                                                         |...................................                              |  54%
   ordinary text without R code
 
   |                                                                         |....................................                             |  56%
 label: DotplotMD
-  |                                                                         |......................................                           |  58%
+  |                                                                         |......................................                           |  59%
   ordinary text without R code
 
-  |                                                                         |.......................................                          |  60%
+  |                                                                         |........................................                         |  61%
 label: unnamed-chunk-5 (with options) 
 List of 1
  $ child: chr "../files/legendas/Dotplot.Rmd"
@@ -193,20 +167,16 @@ processing file: ./../files/legendas/Dotplot.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
   |                                                                         |.........................................                        |  63%
   ordinary text without R code
 
-  |                                                                         |..........................................                       |  65%
+  |                                                                         |...........................................                      |  66%
 label: DotplotExtratoM
-  |                                                                         |............................................                     |  67%
+  |                                                                         |............................................                     |  68%
   ordinary text without R code
 
-  |                                                                         |.............................................                    |  70%
+  |                                                                         |..............................................                   |  71%
 label: unnamed-chunk-6 (with options) 
 List of 1
  $ child: chr "../files/legendas/DotplotExtrato.Rmd"
@@ -217,20 +187,16 @@ processing file: ./../files/legendas/DotplotExtrato.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |...............................................                  |  72%
+  |                                                                         |................................................                 |  73%
   ordinary text without R code
 
-  |                                                                         |................................................                 |  74%
+  |                                                                         |.................................................                |  76%
 label: DotplotExtratoD
-  |                                                                         |..................................................               |  77%
+  |                                                                         |...................................................              |  78%
   ordinary text without R code
 
-  |                                                                         |...................................................              |  79%
+  |                                                                         |....................................................             |  80%
 label: unnamed-chunk-7 (with options) 
 List of 1
  $ child: chr "../files/legendas/DotplotExtrato.Rmd"
@@ -241,20 +207,16 @@ processing file: ./../files/legendas/DotplotExtrato.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |.....................................................            |  81%
+  |                                                                         |......................................................           |  83%
   ordinary text without R code
 
-  |                                                                         |......................................................           |  84%
+  |                                                                         |.......................................................          |  85%
 label: TempoNotaM
-  |                                                                         |........................................................         |  86%
+  |                                                                         |.........................................................        |  88%
   ordinary text without R code
 
-  |                                                                         |.........................................................        |  88%
+  |                                                                         |...........................................................      |  90%
 label: unnamed-chunk-8 (with options) 
 List of 1
  $ child: chr "../files/legendas/TempoNota.Rmd"
@@ -265,20 +227,16 @@ processing file: ./../files/legendas/TempoNota.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-
-  |                                                                         |...........................................................      |  91%
-  ordinary text without R code
 
   |                                                                         |............................................................     |  93%
-label: TempoNotaD
-  |                                                                         |..............................................................   |  95%
   ordinary text without R code
 
+  |                                                                         |..............................................................   |  95%
+label: TempoNotaD
   |                                                                         |...............................................................  |  98%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
 label: unnamed-chunk-9 (with options) 
 List of 1
  $ child: chr "../files/legendas/TempoNota.Rmd"
@@ -289,27 +247,15 @@ processing file: ./../files/legendas/TempoNota.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-
-  |                                                                         |.................................................................| 100%
-  ordinary text without R code
 
 
 output file: slides_geral.md
 
-Mensagens de aviso perdidas:
-1: In readLines(doc, ...) :
-  linha final incompleta encontrada em 'slides_geral.Rmd'
-2: In readLines(doc, ...) :
-  linha final incompleta encontrada em 'slides_geral.Rmd'
 > slidify("../botanica/slides_botanica.Rmd")
 
 
 processing file: slides_botanica.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |..                                                               |   2%
+  |                                                                         |                                                                 |   0%  |                                                                         |..                                                               |   3%
   ordinary text without R code
 
   |                                                                         |...                                                              |   5%
@@ -319,26 +265,17 @@ List of 3
  $ message: symbol F
  $ cache  : symbol F
 
-  |                                                                         |.....                                                            |   7%
-  ordinary text without R code
-
-  |                                                                         |......                                                           |  10%
+  |                                                                         |.....                                                            |   8%
 label: prep
-  |                                                                         |........                                                         |  12%
+  |                                                                         |.......                                                          |  10%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-  |                                                                         |..........                                                       |  15%
+  |                                                                         |........                                                         |  13%
 label: QualiRelM
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |...........                                                      |  17%
+  |                                                                         |..........                                                       |  15%
   ordinary text without R code
 
-  |                                                                         |.............                                                    |  20%
+  |                                                                         |............                                                     |  18%
 label: unnamed-chunk-1 (with options) 
 List of 1
  $ child: chr "../files/legendas/QualiRel.Rmd"
@@ -349,22 +286,16 @@ processing file: ./../files/legendas/QualiRel.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |..............                                                   |  22%
+  |                                                                         |.............                                                    |  21%
   ordinary text without R code
 
-  |                                                                         |................                                                 |  24%
+  |                                                                         |...............                                                  |  23%
 label: QualiRelD
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |.................                                                |  27%
+  |                                                                         |.................                                                |  26%
   ordinary text without R code
 
-  |                                                                         |...................                                              |  29%
+  |                                                                         |..................                                               |  28%
 label: unnamed-chunk-2 (with options) 
 List of 1
  $ child: chr "../files/legendas/QualiRel.Rmd"
@@ -375,22 +306,16 @@ processing file: ./../files/legendas/QualiRel.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |.....................                                            |  32%
+  |                                                                         |....................                                             |  31%
   ordinary text without R code
 
-  |                                                                         |......................                                           |  34%
+  |                                                                         |......................                                           |  33%
 label: ImpactoMD
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |........................                                         |  37%
+  |                                                                         |.......................                                          |  36%
   ordinary text without R code
 
-  |                                                                         |.........................                                        |  39%
+  |                                                                         |.........................                                        |  38%
 label: unnamed-chunk-3 (with options) 
 List of 1
  $ child: chr "../files/legendas/Impacto.Rmd"
@@ -401,15 +326,11 @@ processing file: ./../files/legendas/Impacto.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
   |                                                                         |...........................                                      |  41%
   ordinary text without R code
 
-  |                                                                         |.............................                                    |  44%
+  |                                                                         |............................                                     |  44%
 label: DensityNotas
   |                                                                         |..............................                                   |  46%
   ordinary text without R code
@@ -425,17 +346,13 @@ processing file: ./../files/legendas/DensityNotas.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
   |                                                                         |.................................                                |  51%
   ordinary text without R code
 
   |                                                                         |...................................                              |  54%
 label: DotplotMD
-  |                                                                         |....................................                             |  56%
+  |                                                                         |.....................................                            |  56%
   ordinary text without R code
 
   |                                                                         |......................................                           |  59%
@@ -449,20 +366,16 @@ processing file: ./../files/legendas/Dotplot.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |........................................                         |  61%
+  |                                                                         |........................................                         |  62%
   ordinary text without R code
 
-  |                                                                         |.........................................                        |  63%
+  |                                                                         |..........................................                       |  64%
 label: DotplotExtratoM
-  |                                                                         |...........................................                      |  66%
+  |                                                                         |...........................................                      |  67%
   ordinary text without R code
 
-  |                                                                         |............................................                     |  68%
+  |                                                                         |.............................................                    |  69%
 label: unnamed-chunk-6 (with options) 
 List of 1
  $ child: chr "../files/legendas/DotplotExtrato.Rmd"
@@ -473,20 +386,16 @@ processing file: ./../files/legendas/DotplotExtrato.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |..............................................                   |  71%
+  |                                                                         |...............................................                  |  72%
   ordinary text without R code
 
-  |                                                                         |................................................                 |  73%
+  |                                                                         |................................................                 |  74%
 label: DotplotExtratoD
-  |                                                                         |.................................................                |  76%
+  |                                                                         |..................................................               |  77%
   ordinary text without R code
 
-  |                                                                         |...................................................              |  78%
+  |                                                                         |....................................................             |  79%
 label: unnamed-chunk-7 (with options) 
 List of 1
  $ child: chr "../files/legendas/DotplotExtrato.Rmd"
@@ -497,20 +406,16 @@ processing file: ./../files/legendas/DotplotExtrato.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |....................................................             |  80%
+  |                                                                         |.....................................................            |  82%
   ordinary text without R code
 
-  |                                                                         |......................................................           |  83%
-label: TempoNotaM
   |                                                                         |.......................................................          |  85%
+label: TempoNotaM
+  |                                                                         |.........................................................        |  87%
   ordinary text without R code
 
-  |                                                                         |.........................................................        |  88%
+  |                                                                         |..........................................................       |  90%
 label: unnamed-chunk-8 (with options) 
 List of 1
  $ child: chr "../files/legendas/TempoNota.Rmd"
@@ -521,20 +426,16 @@ processing file: ./../files/legendas/TempoNota.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |...........................................................      |  90%
+  |                                                                         |............................................................     |  92%
   ordinary text without R code
 
-  |                                                                         |............................................................     |  93%
-label: TempoNotaD
   |                                                                         |..............................................................   |  95%
+label: TempoNotaD
+  |                                                                         |...............................................................  |  97%
   ordinary text without R code
 
-  |                                                                         |...............................................................  |  98%
+  |                                                                         |.................................................................| 100%
 label: unnamed-chunk-9 (with options) 
 List of 1
  $ child: chr "../files/legendas/TempoNota.Rmd"
@@ -545,13 +446,6 @@ processing file: ./../files/legendas/TempoNota.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-
-  |                                                                         |.................................................................| 100%
-  ordinary text without R code
 
 
 output file: slides_botanica.md
@@ -565,7 +459,7 @@ Mensagens de aviso perdidas:
 
 
 processing file: slides_ecologia.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |..                                                               |   2%
+  |                                                                         |                                                                 |   0%  |                                                                         |..                                                               |   3%
   ordinary text without R code
 
   |                                                                         |...                                                              |   5%
@@ -575,26 +469,17 @@ List of 3
  $ message: symbol F
  $ cache  : symbol F
 
-  |                                                                         |.....                                                            |   7%
-  ordinary text without R code
-
-  |                                                                         |......                                                           |  10%
+  |                                                                         |.....                                                            |   8%
 label: prep
-  |                                                                         |........                                                         |  12%
+  |                                                                         |.......                                                          |  10%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-  |                                                                         |..........                                                       |  15%
+  |                                                                         |........                                                         |  13%
 label: QualiRelM
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |...........                                                      |  17%
+  |                                                                         |..........                                                       |  15%
   ordinary text without R code
 
-  |                                                                         |.............                                                    |  20%
+  |                                                                         |............                                                     |  18%
 label: unnamed-chunk-1 (with options) 
 List of 1
  $ child: chr "../files/legendas/QualiRel.Rmd"
@@ -605,22 +490,16 @@ processing file: ./../files/legendas/QualiRel.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |..............                                                   |  22%
+  |                                                                         |.............                                                    |  21%
   ordinary text without R code
 
-  |                                                                         |................                                                 |  24%
+  |                                                                         |...............                                                  |  23%
 label: QualiRelD
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |.................                                                |  27%
+  |                                                                         |.................                                                |  26%
   ordinary text without R code
 
-  |                                                                         |...................                                              |  29%
+  |                                                                         |..................                                               |  28%
 label: unnamed-chunk-2 (with options) 
 List of 1
  $ child: chr "../files/legendas/QualiRel.Rmd"
@@ -631,22 +510,16 @@ processing file: ./../files/legendas/QualiRel.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |.....................                                            |  32%
+  |                                                                         |....................                                             |  31%
   ordinary text without R code
 
-  |                                                                         |......................                                           |  34%
+  |                                                                         |......................                                           |  33%
 label: ImpactoMD
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |........................                                         |  37%
+  |                                                                         |.......................                                          |  36%
   ordinary text without R code
 
-  |                                                                         |.........................                                        |  39%
+  |                                                                         |.........................                                        |  38%
 label: unnamed-chunk-3 (with options) 
 List of 1
  $ child: chr "../files/legendas/Impacto.Rmd"
@@ -657,15 +530,11 @@ processing file: ./../files/legendas/Impacto.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
   |                                                                         |...........................                                      |  41%
   ordinary text without R code
 
-  |                                                                         |.............................                                    |  44%
+  |                                                                         |............................                                     |  44%
 label: DensityNotas
   |                                                                         |..............................                                   |  46%
   ordinary text without R code
@@ -681,17 +550,13 @@ processing file: ./../files/legendas/DensityNotas.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
   |                                                                         |.................................                                |  51%
   ordinary text without R code
 
   |                                                                         |...................................                              |  54%
 label: DotplotMD
-  |                                                                         |....................................                             |  56%
+  |                                                                         |.....................................                            |  56%
   ordinary text without R code
 
   |                                                                         |......................................                           |  59%
@@ -705,20 +570,16 @@ processing file: ./../files/legendas/Dotplot.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |........................................                         |  61%
+  |                                                                         |........................................                         |  62%
   ordinary text without R code
 
-  |                                                                         |.........................................                        |  63%
+  |                                                                         |..........................................                       |  64%
 label: DotplotExtratoM
-  |                                                                         |...........................................                      |  66%
+  |                                                                         |...........................................                      |  67%
   ordinary text without R code
 
-  |                                                                         |............................................                     |  68%
+  |                                                                         |.............................................                    |  69%
 label: unnamed-chunk-6 (with options) 
 List of 1
  $ child: chr "../files/legendas/DotplotExtrato.Rmd"
@@ -729,20 +590,16 @@ processing file: ./../files/legendas/DotplotExtrato.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |..............................................                   |  71%
+  |                                                                         |...............................................                  |  72%
   ordinary text without R code
 
-  |                                                                         |................................................                 |  73%
+  |                                                                         |................................................                 |  74%
 label: DotplotExtratoD
-  |                                                                         |.................................................                |  76%
+  |                                                                         |..................................................               |  77%
   ordinary text without R code
 
-  |                                                                         |...................................................              |  78%
+  |                                                                         |....................................................             |  79%
 label: unnamed-chunk-7 (with options) 
 List of 1
  $ child: chr "../files/legendas/DotplotExtrato.Rmd"
@@ -753,20 +610,16 @@ processing file: ./../files/legendas/DotplotExtrato.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |....................................................             |  80%
+  |                                                                         |.....................................................            |  82%
   ordinary text without R code
 
-  |                                                                         |......................................................           |  83%
-label: TempoNotaM
   |                                                                         |.......................................................          |  85%
+label: TempoNotaM
+  |                                                                         |.........................................................        |  87%
   ordinary text without R code
 
-  |                                                                         |.........................................................        |  88%
+  |                                                                         |..........................................................       |  90%
 label: unnamed-chunk-8 (with options) 
 List of 1
  $ child: chr "../files/legendas/TempoNota.Rmd"
@@ -777,20 +630,16 @@ processing file: ./../files/legendas/TempoNota.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |...........................................................      |  90%
+  |                                                                         |............................................................     |  92%
   ordinary text without R code
 
-  |                                                                         |............................................................     |  93%
-label: TempoNotaD
   |                                                                         |..............................................................   |  95%
+label: TempoNotaD
+  |                                                                         |...............................................................  |  97%
   ordinary text without R code
 
-  |                                                                         |...............................................................  |  98%
+  |                                                                         |.................................................................| 100%
 label: unnamed-chunk-9 (with options) 
 List of 1
  $ child: chr "../files/legendas/TempoNota.Rmd"
@@ -801,13 +650,6 @@ processing file: ./../files/legendas/TempoNota.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-
-  |                                                                         |.................................................................| 100%
-  ordinary text without R code
 
 
 output file: slides_ecologia.md
@@ -816,7 +658,7 @@ output file: slides_ecologia.md
 
 
 processing file: slides_fisiologia.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |..                                                               |   2%
+  |                                                                         |                                                                 |   0%  |                                                                         |..                                                               |   3%
   ordinary text without R code
 
   |                                                                         |...                                                              |   5%
@@ -826,26 +668,17 @@ List of 3
  $ message: symbol F
  $ cache  : symbol F
 
-  |                                                                         |.....                                                            |   7%
-  ordinary text without R code
-
-  |                                                                         |......                                                           |  10%
+  |                                                                         |.....                                                            |   8%
 label: prep
-  |                                                                         |........                                                         |  12%
+  |                                                                         |.......                                                          |  10%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-  |                                                                         |..........                                                       |  15%
+  |                                                                         |........                                                         |  13%
 label: QualiRelM
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |...........                                                      |  17%
+  |                                                                         |..........                                                       |  15%
   ordinary text without R code
 
-  |                                                                         |.............                                                    |  20%
+  |                                                                         |............                                                     |  18%
 label: unnamed-chunk-1 (with options) 
 List of 1
  $ child: chr "../files/legendas/QualiRel.Rmd"
@@ -856,22 +689,16 @@ processing file: ./../files/legendas/QualiRel.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |..............                                                   |  22%
+  |                                                                         |.............                                                    |  21%
   ordinary text without R code
 
-  |                                                                         |................                                                 |  24%
+  |                                                                         |...............                                                  |  23%
 label: QualiRelD
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |.................                                                |  27%
+  |                                                                         |.................                                                |  26%
   ordinary text without R code
 
-  |                                                                         |...................                                              |  29%
+  |                                                                         |..................                                               |  28%
 label: unnamed-chunk-2 (with options) 
 List of 1
  $ child: chr "../files/legendas/QualiRel.Rmd"
@@ -882,22 +709,16 @@ processing file: ./../files/legendas/QualiRel.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |.....................                                            |  32%
+  |                                                                         |....................                                             |  31%
   ordinary text without R code
 
-  |                                                                         |......................                                           |  34%
+  |                                                                         |......................                                           |  33%
 label: ImpactoMD
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |........................                                         |  37%
+  |                                                                         |.......................                                          |  36%
   ordinary text without R code
 
-  |                                                                         |.........................                                        |  39%
+  |                                                                         |.........................                                        |  38%
 label: unnamed-chunk-3 (with options) 
 List of 1
  $ child: chr "../files/legendas/Impacto.Rmd"
@@ -908,15 +729,11 @@ processing file: ./../files/legendas/Impacto.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
   |                                                                         |...........................                                      |  41%
   ordinary text without R code
 
-  |                                                                         |.............................                                    |  44%
+  |                                                                         |............................                                     |  44%
 label: DensityNotas
   |                                                                         |..............................                                   |  46%
   ordinary text without R code
@@ -932,17 +749,13 @@ processing file: ./../files/legendas/DensityNotas.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
   |                                                                         |.................................                                |  51%
   ordinary text without R code
 
   |                                                                         |...................................                              |  54%
 label: DotplotMD
-  |                                                                         |....................................                             |  56%
+  |                                                                         |.....................................                            |  56%
   ordinary text without R code
 
   |                                                                         |......................................                           |  59%
@@ -956,20 +769,16 @@ processing file: ./../files/legendas/Dotplot.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |........................................                         |  61%
+  |                                                                         |........................................                         |  62%
   ordinary text without R code
 
-  |                                                                         |.........................................                        |  63%
+  |                                                                         |..........................................                       |  64%
 label: DotplotExtratoM
-  |                                                                         |...........................................                      |  66%
+  |                                                                         |...........................................                      |  67%
   ordinary text without R code
 
-  |                                                                         |............................................                     |  68%
+  |                                                                         |.............................................                    |  69%
 label: unnamed-chunk-6 (with options) 
 List of 1
  $ child: chr "../files/legendas/DotplotExtrato.Rmd"
@@ -980,20 +789,16 @@ processing file: ./../files/legendas/DotplotExtrato.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |..............................................                   |  71%
+  |                                                                         |...............................................                  |  72%
   ordinary text without R code
 
-  |                                                                         |................................................                 |  73%
+  |                                                                         |................................................                 |  74%
 label: DotplotExtratoD
-  |                                                                         |.................................................                |  76%
+  |                                                                         |..................................................               |  77%
   ordinary text without R code
 
-  |                                                                         |...................................................              |  78%
+  |                                                                         |....................................................             |  79%
 label: unnamed-chunk-7 (with options) 
 List of 1
  $ child: chr "../files/legendas/DotplotExtrato.Rmd"
@@ -1004,20 +809,16 @@ processing file: ./../files/legendas/DotplotExtrato.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |....................................................             |  80%
+  |                                                                         |.....................................................            |  82%
   ordinary text without R code
 
-  |                                                                         |......................................................           |  83%
-label: TempoNotaM
   |                                                                         |.......................................................          |  85%
+label: TempoNotaM
+  |                                                                         |.........................................................        |  87%
   ordinary text without R code
 
-  |                                                                         |.........................................................        |  88%
+  |                                                                         |..........................................................       |  90%
 label: unnamed-chunk-8 (with options) 
 List of 1
  $ child: chr "../files/legendas/TempoNota.Rmd"
@@ -1028,20 +829,16 @@ processing file: ./../files/legendas/TempoNota.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |...........................................................      |  90%
+  |                                                                         |............................................................     |  92%
   ordinary text without R code
 
-  |                                                                         |............................................................     |  93%
-label: TempoNotaD
   |                                                                         |..............................................................   |  95%
+label: TempoNotaD
+  |                                                                         |...............................................................  |  97%
   ordinary text without R code
 
-  |                                                                         |...............................................................  |  98%
+  |                                                                         |.................................................................| 100%
 label: unnamed-chunk-9 (with options) 
 List of 1
  $ child: chr "../files/legendas/TempoNota.Rmd"
@@ -1052,13 +849,6 @@ processing file: ./../files/legendas/TempoNota.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-
-  |                                                                         |.................................................................| 100%
-  ordinary text without R code
 
 
 output file: slides_fisiologia.md
@@ -1072,7 +862,7 @@ Mensagens de aviso perdidas:
 
 
 processing file: slides_genetica.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |..                                                               |   2%
+  |                                                                         |                                                                 |   0%  |                                                                         |..                                                               |   3%
   ordinary text without R code
 
   |                                                                         |...                                                              |   5%
@@ -1082,26 +872,17 @@ List of 3
  $ message: symbol F
  $ cache  : symbol F
 
-  |                                                                         |.....                                                            |   7%
-  ordinary text without R code
-
-  |                                                                         |......                                                           |  10%
+  |                                                                         |.....                                                            |   8%
 label: prep
-  |                                                                         |........                                                         |  12%
+  |                                                                         |.......                                                          |  10%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-  |                                                                         |..........                                                       |  15%
+  |                                                                         |........                                                         |  13%
 label: QualiRelM
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |...........                                                      |  17%
+  |                                                                         |..........                                                       |  15%
   ordinary text without R code
 
-  |                                                                         |.............                                                    |  20%
+  |                                                                         |............                                                     |  18%
 label: unnamed-chunk-1 (with options) 
 List of 1
  $ child: chr "../files/legendas/QualiRel.Rmd"
@@ -1112,22 +893,16 @@ processing file: ./../files/legendas/QualiRel.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |..............                                                   |  22%
+  |                                                                         |.............                                                    |  21%
   ordinary text without R code
 
-  |                                                                         |................                                                 |  24%
+  |                                                                         |...............                                                  |  23%
 label: QualiRelD
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |.................                                                |  27%
+  |                                                                         |.................                                                |  26%
   ordinary text without R code
 
-  |                                                                         |...................                                              |  29%
+  |                                                                         |..................                                               |  28%
 label: unnamed-chunk-2 (with options) 
 List of 1
  $ child: chr "../files/legendas/QualiRel.Rmd"
@@ -1138,22 +913,16 @@ processing file: ./../files/legendas/QualiRel.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |.....................                                            |  32%
+  |                                                                         |....................                                             |  31%
   ordinary text without R code
 
-  |                                                                         |......................                                           |  34%
+  |                                                                         |......................                                           |  33%
 label: ImpactoMD
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |........................                                         |  37%
+  |                                                                         |.......................                                          |  36%
   ordinary text without R code
 
-  |                                                                         |.........................                                        |  39%
+  |                                                                         |.........................                                        |  38%
 label: unnamed-chunk-3 (with options) 
 List of 1
  $ child: chr "../files/legendas/Impacto.Rmd"
@@ -1164,15 +933,11 @@ processing file: ./../files/legendas/Impacto.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
   |                                                                         |...........................                                      |  41%
   ordinary text without R code
 
-  |                                                                         |.............................                                    |  44%
+  |                                                                         |............................                                     |  44%
 label: DensityNotas
   |                                                                         |..............................                                   |  46%
   ordinary text without R code
@@ -1188,17 +953,13 @@ processing file: ./../files/legendas/DensityNotas.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
   |                                                                         |.................................                                |  51%
   ordinary text without R code
 
   |                                                                         |...................................                              |  54%
 label: DotplotMD
-  |                                                                         |....................................                             |  56%
+  |                                                                         |.....................................                            |  56%
   ordinary text without R code
 
   |                                                                         |......................................                           |  59%
@@ -1212,20 +973,16 @@ processing file: ./../files/legendas/Dotplot.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |........................................                         |  61%
+  |                                                                         |........................................                         |  62%
   ordinary text without R code
 
-  |                                                                         |.........................................                        |  63%
+  |                                                                         |..........................................                       |  64%
 label: DotplotExtratoM
-  |                                                                         |...........................................                      |  66%
+  |                                                                         |...........................................                      |  67%
   ordinary text without R code
 
-  |                                                                         |............................................                     |  68%
+  |                                                                         |.............................................                    |  69%
 label: unnamed-chunk-6 (with options) 
 List of 1
  $ child: chr "../files/legendas/DotplotExtrato.Rmd"
@@ -1236,20 +993,16 @@ processing file: ./../files/legendas/DotplotExtrato.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |..............................................                   |  71%
+  |                                                                         |...............................................                  |  72%
   ordinary text without R code
 
-  |                                                                         |................................................                 |  73%
+  |                                                                         |................................................                 |  74%
 label: DotplotExtratoD
-  |                                                                         |.................................................                |  76%
+  |                                                                         |..................................................               |  77%
   ordinary text without R code
 
-  |                                                                         |...................................................              |  78%
+  |                                                                         |....................................................             |  79%
 label: unnamed-chunk-7 (with options) 
 List of 1
  $ child: chr "../files/legendas/DotplotExtrato.Rmd"
@@ -1260,20 +1013,16 @@ processing file: ./../files/legendas/DotplotExtrato.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |....................................................             |  80%
+  |                                                                         |.....................................................            |  82%
   ordinary text without R code
 
-  |                                                                         |......................................................           |  83%
-label: TempoNotaM
   |                                                                         |.......................................................          |  85%
+label: TempoNotaM
+  |                                                                         |.........................................................        |  87%
   ordinary text without R code
 
-  |                                                                         |.........................................................        |  88%
+  |                                                                         |..........................................................       |  90%
 label: unnamed-chunk-8 (with options) 
 List of 1
  $ child: chr "../files/legendas/TempoNota.Rmd"
@@ -1284,20 +1033,16 @@ processing file: ./../files/legendas/TempoNota.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |...........................................................      |  90%
+  |                                                                         |............................................................     |  92%
   ordinary text without R code
 
-  |                                                                         |............................................................     |  93%
-label: TempoNotaD
   |                                                                         |..............................................................   |  95%
+label: TempoNotaD
+  |                                                                         |...............................................................  |  97%
   ordinary text without R code
 
-  |                                                                         |...............................................................  |  98%
+  |                                                                         |.................................................................| 100%
 label: unnamed-chunk-9 (with options) 
 List of 1
  $ child: chr "../files/legendas/TempoNota.Rmd"
@@ -1308,13 +1053,6 @@ processing file: ./../files/legendas/TempoNota.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-
-  |                                                                         |.................................................................| 100%
-  ordinary text without R code
 
 
 output file: slides_genetica.md
@@ -1328,7 +1066,7 @@ Mensagens de aviso perdidas:
 
 
 processing file: slides_zoologia.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |..                                                               |   2%
+  |                                                                         |                                                                 |   0%  |                                                                         |..                                                               |   3%
   ordinary text without R code
 
   |                                                                         |...                                                              |   5%
@@ -1338,26 +1076,17 @@ List of 3
  $ message: symbol F
  $ cache  : symbol F
 
-  |                                                                         |.....                                                            |   7%
-  ordinary text without R code
-
-  |                                                                         |......                                                           |  10%
+  |                                                                         |.....                                                            |   8%
 label: prep
-  |                                                                         |........                                                         |  12%
+  |                                                                         |.......                                                          |  10%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-  |                                                                         |..........                                                       |  15%
+  |                                                                         |........                                                         |  13%
 label: QualiRelM
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |...........                                                      |  17%
+  |                                                                         |..........                                                       |  15%
   ordinary text without R code
 
-  |                                                                         |.............                                                    |  20%
+  |                                                                         |............                                                     |  18%
 label: unnamed-chunk-1 (with options) 
 List of 1
  $ child: chr "../files/legendas/QualiRel.Rmd"
@@ -1368,22 +1097,16 @@ processing file: ./../files/legendas/QualiRel.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |..............                                                   |  22%
+  |                                                                         |.............                                                    |  21%
   ordinary text without R code
 
-  |                                                                         |................                                                 |  24%
+  |                                                                         |...............                                                  |  23%
 label: QualiRelD
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |.................                                                |  27%
+  |                                                                         |.................                                                |  26%
   ordinary text without R code
 
-  |                                                                         |...................                                              |  29%
+  |                                                                         |..................                                               |  28%
 label: unnamed-chunk-2 (with options) 
 List of 1
  $ child: chr "../files/legendas/QualiRel.Rmd"
@@ -1394,22 +1117,16 @@ processing file: ./../files/legendas/QualiRel.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |.....................                                            |  32%
+  |                                                                         |....................                                             |  31%
   ordinary text without R code
 
-  |                                                                         |......................                                           |  34%
+  |                                                                         |......................                                           |  33%
 label: ImpactoMD
-Aviso em `$.data.frame`(ficha.min, titul) :
-  Name partially matched in data frame
-  |                                                                         |........................                                         |  37%
+  |                                                                         |.......................                                          |  36%
   ordinary text without R code
 
-  |                                                                         |.........................                                        |  39%
+  |                                                                         |.........................                                        |  38%
 label: unnamed-chunk-3 (with options) 
 List of 1
  $ child: chr "../files/legendas/Impacto.Rmd"
@@ -1420,15 +1137,11 @@ processing file: ./../files/legendas/Impacto.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
   |                                                                         |...........................                                      |  41%
   ordinary text without R code
 
-  |                                                                         |.............................                                    |  44%
+  |                                                                         |............................                                     |  44%
 label: DensityNotas
   |                                                                         |..............................                                   |  46%
   ordinary text without R code
@@ -1444,17 +1157,13 @@ processing file: ./../files/legendas/DensityNotas.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
   |                                                                         |.................................                                |  51%
   ordinary text without R code
 
   |                                                                         |...................................                              |  54%
 label: DotplotMD
-  |                                                                         |....................................                             |  56%
+  |                                                                         |.....................................                            |  56%
   ordinary text without R code
 
   |                                                                         |......................................                           |  59%
@@ -1468,20 +1177,16 @@ processing file: ./../files/legendas/Dotplot.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |........................................                         |  61%
+  |                                                                         |........................................                         |  62%
   ordinary text without R code
 
-  |                                                                         |.........................................                        |  63%
+  |                                                                         |..........................................                       |  64%
 label: DotplotExtratoM
-  |                                                                         |...........................................                      |  66%
+  |                                                                         |...........................................                      |  67%
   ordinary text without R code
 
-  |                                                                         |............................................                     |  68%
+  |                                                                         |.............................................                    |  69%
 label: unnamed-chunk-6 (with options) 
 List of 1
  $ child: chr "../files/legendas/DotplotExtrato.Rmd"
@@ -1492,20 +1197,16 @@ processing file: ./../files/legendas/DotplotExtrato.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |..............................................                   |  71%
+  |                                                                         |...............................................                  |  72%
   ordinary text without R code
 
-  |                                                                         |................................................                 |  73%
+  |                                                                         |................................................                 |  74%
 label: DotplotExtratoD
-  |                                                                         |.................................................                |  76%
+  |                                                                         |..................................................               |  77%
   ordinary text without R code
 
-  |                                                                         |...................................................              |  78%
+  |                                                                         |....................................................             |  79%
 label: unnamed-chunk-7 (with options) 
 List of 1
  $ child: chr "../files/legendas/DotplotExtrato.Rmd"
@@ -1516,20 +1217,16 @@ processing file: ./../files/legendas/DotplotExtrato.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |....................................................             |  80%
+  |                                                                         |.....................................................            |  82%
   ordinary text without R code
 
-  |                                                                         |......................................................           |  83%
-label: TempoNotaM
   |                                                                         |.......................................................          |  85%
+label: TempoNotaM
+  |                                                                         |.........................................................        |  87%
   ordinary text without R code
 
-  |                                                                         |.........................................................        |  88%
+  |                                                                         |..........................................................       |  90%
 label: unnamed-chunk-8 (with options) 
 List of 1
  $ child: chr "../files/legendas/TempoNota.Rmd"
@@ -1540,20 +1237,16 @@ processing file: ./../files/legendas/TempoNota.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
 
-  |                                                                         |...........................................................      |  90%
+  |                                                                         |............................................................     |  92%
   ordinary text without R code
 
-  |                                                                         |............................................................     |  93%
-label: TempoNotaD
   |                                                                         |..............................................................   |  95%
+label: TempoNotaD
+  |                                                                         |...............................................................  |  97%
   ordinary text without R code
 
-  |                                                                         |...............................................................  |  98%
+  |                                                                         |.................................................................| 100%
 label: unnamed-chunk-9 (with options) 
 List of 1
  $ child: chr "../files/legendas/TempoNota.Rmd"
@@ -1564,13 +1257,6 @@ processing file: ./../files/legendas/TempoNota.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-Aviso em `$.data.frame`(ficha, ano.def) :
-  Name partially matched in data frame
-
-  |                                                                         |.................................................................| 100%
-  ordinary text without R code
 
 
 output file: slides_zoologia.md
@@ -1580,13 +1266,7 @@ Mensagens de aviso perdidas:
   linha final incompleta encontrada em 'slides_zoologia.Rmd'
 2: In readLines(doc, ...) :
   linha final incompleta encontrada em 'slides_zoologia.Rmd'
-> system("cd ../")
+> ##system("cd ../")
+> setwd("../")
 > publish(user="CPG-IBUSP", repo="avaliacao-teses")
-Please set mode to selfcontained and run Slidify
-This would place library files in the slide folder
-making it self-contained
-[1] FALSE
-> 
-> proc.time()
-  usuário   sistema decorrido 
-    8.475     0.112     8.592 
+Publishing deck to CPG-IBUSP/avaliacao-teses

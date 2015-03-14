@@ -29,7 +29,7 @@ knitr::read_chunk("../files/codes.R")
 rm(list=ls())
 load("../files/ficha.RData")
 ficha <- ficha[ficha$programa=="Eco",]
-```
+
 ```{r prep}
 ```
 
@@ -87,6 +87,7 @@ o presente trabalho enquadra-se:
 *** =pnotes
 ```{r, child="../files/legendas/QualiRel.Rmd"}
 ```
+
 ---
 
 ## Pergunta sobre impacto potencial
@@ -108,6 +109,7 @@ publicado em periódico em qual categoria de fator de impacto em sua
 *** =pnotes
 ```{r, child="../files/legendas/Impacto.Rmd"}
 ```
+
 ---
 
 ## Pergunta sobre itens de destaque
@@ -144,6 +146,7 @@ aplique ou marque mais de uma se achar adequado.
 *** =pnotes
 ```{r, child="../files/legendas/DensityNotas.Rmd"}
 ```
+
 ---
 
 ## Proporção de indicações por item
@@ -173,6 +176,7 @@ aplique ou marque mais de uma se achar adequado.
 ***=pnotes
 ```{r, child="../files/legendas/DotplotExtrato.Rmd"}
 ```
+
 ---
 
 ## Prazo de depósito e nota (Mestrado)
@@ -181,6 +185,7 @@ aplique ou marque mais de uma se achar adequado.
 ***=pnotes
 ```{r, child="../files/legendas/TempoNota.Rmd"}
 ```
+
 ---
 
 ## Prazo de depósito e nota (Doutorado)
