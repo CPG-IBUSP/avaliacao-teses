@@ -38,24 +38,24 @@ github:
 ## Tamanho da amostra
 ### Defesas entre 2011 e 2014
 
-<!-- Table generated in R 3.1.2 by googleVis 0.5.8 package -->
-<!-- Fri Mar 13 23:48:59 2015 -->
+<!-- Table generated in R 3.1.3 by googleVis 0.5.8 package -->
+<!-- Fri May 22 17:42:24 2015 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataTableID30cc74b61651 () {
+function gvisDataTableID2a546b18751 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
  [
  "Bot",
 54,
-22,
+23,
 3,
-79 
+80 
 ],
 [
  "Eco",
@@ -66,17 +66,17 @@ var datajson =
 ],
 [
  "Fis",
-38,
-27,
+39,
+28,
 3,
-68 
+70 
 ],
 [
  "Gen",
 46,
 46,
-13,
-105 
+14,
+106 
 ],
 [
  "Zoo",
@@ -87,10 +87,10 @@ var datajson =
 ],
 [
  "Total",
-258,
-148,
-22,
-428 
+259,
+150,
+23,
+432 
 ] 
 ];
 data.addColumn('string','Programa');
@@ -103,14 +103,14 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartTableID30cc74b61651() {
-var data = gvisDataTableID30cc74b61651();
+function drawChartTableID2a546b18751() {
+var data = gvisDataTableID2a546b18751();
 var options = {};
 options["allowHtml"] = true;
 options["sort"] = "disable";
 
     var chart = new google.visualization.Table(
-    document.getElementById('TableID30cc74b61651')
+    document.getElementById('TableID2a546b18751')
     );
     chart.draw(data,options);
     
@@ -134,9 +134,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartTableID30cc74b61651);
+callbacks.push(drawChartTableID2a546b18751);
 })();
-function displayChartTableID30cc74b61651() {
+function displayChartTableID2a546b18751() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -160,11 +160,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID30cc74b61651"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID2a546b18751"></script>
  
 <!-- divChart -->
   
-<div id="TableID30cc74b61651" 
+<div id="TableID2a546b18751" 
   style="width: 60%; height: automatic;">
 </div>
 

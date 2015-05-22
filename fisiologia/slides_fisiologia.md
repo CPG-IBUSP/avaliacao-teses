@@ -39,9 +39,9 @@ github:
 
 ### Defesas entre 2011 e 2014:
 
-- Total: 68  
-  - Mestrados: 38
-  - Doutorados: 27
+- Total: 70  
+  - Mestrados: 39
+  - Doutorados: 28
   - Doutorados diretos: 3
 
 ---
