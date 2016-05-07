@@ -37,11 +37,11 @@ github:
 
 ## Tamanho da amostra
 
-### Defesas entre 2011 e 2014:
+### Defesas entre 2011 e 2015:
 
-- Total: 70  
-  - Mestrados: 39
-  - Doutorados: 28
+- Total: 91  
+  - Mestrados: 52
+  - Doutorados: 36
   - Doutorados diretos: 3
 
 ---
@@ -63,7 +63,7 @@ o presente trabalho enquadra-se:
 *** =pnotes
 
 **Número de teses/dissertações defendidas entre
- 2011 e 2014, por classe de qualidade.**
+ 2011 e 2015, por classe de qualidade.**
 
 A avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram a qualidade do trabalho relativa a todos que 
@@ -89,7 +89,7 @@ e o já conhecido pela banca forem iguais em qualidade.
 *** =pnotes
 
 **Número de teses/dissertações defendidas entre
- 2011 e 2014, por classe de qualidade.**
+ 2011 e 2015, por classe de qualidade.**
 
 A avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram a qualidade do trabalho relativa a todos que 
@@ -125,7 +125,7 @@ publicado em periódico em qual categoria de fator de impacto em sua
 
 *** =pnotes
 
-**Proporção de teses e dissertações defendidas entre  2011 e 2014 , 
+**Proporção de teses e dissertações defendidas entre  2011 e 2015 , 
 por classe de impacto.**
 
 A avaliação anônima feita pelos participantes das bancas de defesa, 
@@ -174,7 +174,7 @@ aplique ou marque mais de uma se achar adequado.
 *** =pnotes
 
 **Distribuição das notas das dissertações de mestrado e teses de doutorado 
-defendidas entre  2011 e 2014 .**
+defendidas entre  2011 e 2015 .**
 
 A avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa: 
@@ -197,7 +197,7 @@ para representar distribuições de frequência.
 *** =pnotes
 
 **Proporção de teses e dissertações consideradas excelentes em dez quesitos
-( defesas entre 2011 e 2014 ).**
+( defesas entre 2011 e 2015 ).**
 
 Avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa: 
@@ -220,7 +220,7 @@ em cada quesito, por aluno. Em seguida foi calculada a média desses valores par
 
 **Proporção de teses e dissertações consideradas excelentes em dez quesitos: 
 comparação entre os melhores trabalhos e os demais. 
-(Defesas entres 2011 e 2014 )**
+(Defesas entres 2011 e 2015 )**
 
 Avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 
@@ -242,7 +242,7 @@ em cada quesito, por aluno. Em seguida foi calculada a média desses valores par
 
 **Proporção de teses e dissertações consideradas excelentes em dez quesitos: 
 comparação entre os melhores trabalhos e os demais. 
-(Defesas entres 2011 e 2014 )**
+(Defesas entres 2011 e 2015 )**
 
 Avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 
@@ -262,7 +262,7 @@ em cada quesito, por aluno. Em seguida foi calculada a média desses valores par
 ***=pnotes
 
 **Notas das dissertações e teses 
-defendidas entre 2011 e 2014, em função do tempo de conclusão.**
+defendidas entre 2011 e 2015, em função do tempo de conclusão.**
 
 Avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 
@@ -283,7 +283,7 @@ ultrapassam os prazos regimentais.
 ***=pnotes
 
 **Notas das dissertações e teses 
-defendidas entre 2011 e 2014, em função do tempo de conclusão.**
+defendidas entre 2011 e 2015, em função do tempo de conclusão.**
 
 Avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 

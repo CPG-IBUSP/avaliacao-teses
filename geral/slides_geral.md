@@ -36,61 +36,61 @@ github:
 ---
 
 ## Tamanho da amostra
-### Defesas entre 2011 e 2014
+### Defesas entre 2011 e 2015
 
-<!-- Table generated in R 3.1.3 by googleVis 0.5.8 package -->
-<!-- Fri May 22 17:42:24 2015 -->
+<!-- Table generated in R 3.2.4 by googleVis 0.5.10 package -->
+<!-- Sat May  7 18:12:00 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataTableID2a546b18751 () {
+function gvisDataTableID659636c30ad3 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
  [
  "Bot",
-54,
-23,
-3,
-80 
+65,
+36,
+6,
+107 
 ],
 [
  "Eco",
-56,
-20,
+70,
+29,
 2,
-78 
+101 
 ],
 [
  "Fis",
-39,
-28,
+52,
+36,
 3,
-70 
+91 
 ],
 [
  "Gen",
-46,
-46,
-14,
-106 
+57,
+53,
+17,
+127 
 ],
 [
  "Zoo",
-64,
-33,
+77,
+46,
 1,
-98 
+124 
 ],
 [
  "Total",
-259,
-150,
-23,
-432 
+321,
+200,
+29,
+550 
 ] 
 ];
 data.addColumn('string','Programa');
@@ -103,14 +103,14 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartTableID2a546b18751() {
-var data = gvisDataTableID2a546b18751();
+function drawChartTableID659636c30ad3() {
+var data = gvisDataTableID659636c30ad3();
 var options = {};
 options["allowHtml"] = true;
 options["sort"] = "disable";
 
     var chart = new google.visualization.Table(
-    document.getElementById('TableID2a546b18751')
+    document.getElementById('TableID659636c30ad3')
     );
     chart.draw(data,options);
     
@@ -134,9 +134,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartTableID2a546b18751);
+callbacks.push(drawChartTableID659636c30ad3);
 })();
-function displayChartTableID2a546b18751() {
+function displayChartTableID659636c30ad3() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -160,11 +160,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID2a546b18751"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID659636c30ad3"></script>
  
 <!-- divChart -->
   
-<div id="TableID2a546b18751" 
+<div id="TableID659636c30ad3" 
   style="width: 60%; height: automatic;">
 </div>
 
@@ -186,7 +186,7 @@ o presente trabalho enquadra-se:
 *** =pnotes
 
 **Número de teses/dissertações defendidas entre
- 2011 e 2014, por classe de qualidade.**
+ 2011 e 2015, por classe de qualidade.**
 
 A avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram a qualidade do trabalho relativa a todos que 
@@ -212,7 +212,7 @@ e o já conhecido pela banca forem iguais em qualidade.
 *** =pnotes
 
 **Número de teses/dissertações defendidas entre
- 2011 e 2014, por classe de qualidade.**
+ 2011 e 2015, por classe de qualidade.**
 
 A avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram a qualidade do trabalho relativa a todos que 
@@ -248,7 +248,7 @@ publicado em periódico em qual categoria de fator de impacto em sua
 
 *** =pnotes
 
-**Proporção de teses e dissertações defendidas entre  2011 e 2014 , 
+**Proporção de teses e dissertações defendidas entre  2011 e 2015 , 
 por classe de impacto.**
 
 A avaliação anônima feita pelos participantes das bancas de defesa, 
@@ -297,7 +297,7 @@ aplique ou marque mais de uma se achar adequado.
 *** =pnotes
 
 **Distribuição das notas das dissertações de mestrado e teses de doutorado 
-defendidas entre  2011 e 2014 .**
+defendidas entre  2011 e 2015 .**
 
 A avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa: 
@@ -320,7 +320,7 @@ para representar distribuições de frequência.
 *** =pnotes
 
 **Proporção de teses e dissertações consideradas excelentes em dez quesitos
-( defesas entre 2011 e 2014 ).**
+( defesas entre 2011 e 2015 ).**
 
 Avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa: 
@@ -343,7 +343,7 @@ em cada quesito, por aluno. Em seguida foi calculada a média desses valores par
 
 **Proporção de teses e dissertações consideradas excelentes em dez quesitos: 
 comparação entre os melhores trabalhos e os demais. 
-(Defesas entres 2011 e 2014 )**
+(Defesas entres 2011 e 2015 )**
 
 Avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 
@@ -365,7 +365,7 @@ em cada quesito, por aluno. Em seguida foi calculada a média desses valores par
 
 **Proporção de teses e dissertações consideradas excelentes em dez quesitos: 
 comparação entre os melhores trabalhos e os demais. 
-(Defesas entres 2011 e 2014 )**
+(Defesas entres 2011 e 2015 )**
 
 Avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 
@@ -385,7 +385,7 @@ em cada quesito, por aluno. Em seguida foi calculada a média desses valores par
 ***=pnotes
 
 **Notas das dissertações e teses 
-defendidas entre 2011 e 2014, em função do tempo de conclusão.**
+defendidas entre 2011 e 2015, em função do tempo de conclusão.**
 
 Avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 
@@ -406,7 +406,7 @@ ultrapassam os prazos regimentais.
 ***=pnotes
 
 **Notas das dissertações e teses 
-defendidas entre 2011 e 2014, em função do tempo de conclusão.**
+defendidas entre 2011 e 2015, em função do tempo de conclusão.**
 
 Avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa 

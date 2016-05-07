@@ -1270,3 +1270,42 @@ Mensagens de aviso perdidas:
 > setwd("../")
 > publish(user="CPG-IBUSP", repo="avaliacao-teses")
 Publishing deck to CPG-IBUSP/avaliacao-teses
+[gh-pages 16bbfd1] publishing deck
+ 42 files changed, 1163 insertions(+), 1147 deletions(-)
+ rewrite botanica/assets/fig/DensityNotas-1.png (99%)
+ rewrite botanica/assets/fig/DotplotExtratoD-1.png (99%)
+ rewrite botanica/assets/fig/DotplotMD-1.png (99%)
+ rewrite botanica/assets/fig/ImpactoMD-1.png (97%)
+ rewrite botanica/assets/fig/QualiRelD-1.png (97%)
+ rewrite botanica/assets/fig/TempoNotaD-1.png (99%)
+ rewrite files/ficha.RData (100%)
+ rewrite fisiologia/assets/fig/DensityNotas-1.png (99%)
+ rewrite fisiologia/assets/fig/DotplotExtratoD-1.png (99%)
+ rewrite fisiologia/assets/fig/DotplotExtratoM-1.png (99%)
+ rewrite fisiologia/assets/fig/DotplotMD-1.png (99%)
+ rewrite fisiologia/assets/fig/ImpactoMD-1.png (99%)
+ rewrite fisiologia/assets/fig/QualiRelD-1.png (93%)
+ rewrite fisiologia/assets/fig/QualiRelM-1.png (98%)
+ rewrite fisiologia/assets/fig/TempoNotaD-1.png (98%)
+ rewrite fisiologia/assets/fig/TempoNotaM-1.png (99%)
+ rewrite genetica/assets/fig/DensityNotas-1.png (99%)
+ rewrite genetica/assets/fig/DotplotExtratoD-1.png (98%)
+ rewrite genetica/assets/fig/DotplotMD-1.png (99%)
+ rewrite genetica/assets/fig/QualiRelD-1.png (99%)
+ rewrite genetica/assets/fig/TempoNotaD-1.png (99%)
+ rewrite geral/assets/fig/DensityNotas-1.png (99%)
+ rewrite geral/assets/fig/DotplotExtratoD-1.png (99%)
+ rewrite geral/assets/fig/DotplotExtratoM-1.png (99%)
+ rewrite geral/assets/fig/DotplotMD-1.png (99%)
+ rewrite geral/assets/fig/ImpactoMD-1.png (97%)
+ rewrite geral/assets/fig/QualiRelD-1.png (99%)
+ rewrite geral/assets/fig/QualiRelM-1.png (91%)
+ rewrite geral/assets/fig/TempoNotaD-1.png (99%)
+ rewrite geral/assets/fig/TempoNotaM-1.png (91%)
+To git@github.com:CPG-IBUSP/avaliacao-teses
+   4dc2ddd..16bbfd1  gh-pages -> gh-pages
+You can now view your slide deck at http://CPG-IBUSP.github.com/avaliacao-teses
+> 
+> proc.time()
+  usuário   sistema decorrido 
+   11.569     0.425    28.322 
