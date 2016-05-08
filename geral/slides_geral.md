@@ -39,14 +39,14 @@ github:
 ### Defesas entre 2011 e 2015
 
 <!-- Table generated in R 3.2.4 by googleVis 0.5.10 package -->
-<!-- Sat May  7 18:12:00 2016 -->
+<!-- Sun May  8 02:43:55 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataTableID659636c30ad3 () {
+function gvisDataTableID4f47543cbc0e () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -103,14 +103,14 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartTableID659636c30ad3() {
-var data = gvisDataTableID659636c30ad3();
+function drawChartTableID4f47543cbc0e() {
+var data = gvisDataTableID4f47543cbc0e();
 var options = {};
 options["allowHtml"] = true;
 options["sort"] = "disable";
 
     var chart = new google.visualization.Table(
-    document.getElementById('TableID659636c30ad3')
+    document.getElementById('TableID4f47543cbc0e')
     );
     chart.draw(data,options);
     
@@ -134,9 +134,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartTableID659636c30ad3);
+callbacks.push(drawChartTableID4f47543cbc0e);
 })();
-function displayChartTableID659636c30ad3() {
+function displayChartTableID4f47543cbc0e() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -160,11 +160,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID659636c30ad3"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID4f47543cbc0e"></script>
  
 <!-- divChart -->
   
-<div id="TableID659636c30ad3" 
+<div id="TableID4f47543cbc0e" 
   style="width: 60%; height: automatic;">
 </div>
 
@@ -181,7 +181,7 @@ o presente trabalho enquadra-se:
 ---
 
 ## Qualidade relativa - Mestrado
-![plot of chunk QualiRelM](assets/fig/QualiRelM-1.png) 
+![plot of chunk QualiRelM](assets/fig/QualiRelM-1.png)
 
 *** =pnotes
 
@@ -203,11 +203,60 @@ a categoria de menor qualidade, entre as indicadas.
 Também indicado o número esperado em cada categoria se o conjunto avaliado
 e o já conhecido pela banca forem iguais em qualidade.
 
-
 ---
 
 ## Qualidade relativa - Doutorado
-![plot of chunk QualiRelD](assets/fig/QualiRelD-1.png) 
+![plot of chunk QualiRelD](assets/fig/QualiRelD-1.png)
+
+*** =pnotes
+
+**Número de teses/dissertações defendidas entre
+ 2011 e 2015, por classe de qualidade.**
+
+A avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram a qualidade do trabalho relativa a todos que 
+já orientou ou avaliou, entre quatro classes:
+
+- Abaixo dos 50% melhores que já avaliou/orientou
+- Entre os 50% melhores
+- Entre os 25% melhores
+- Entre os 10% melhores
+
+Quando houve resposta de mais de um avaliador, foi considerada 
+a categoria de menor qualidade, entre as indicadas.
+
+Também indicado o número esperado em cada categoria se o conjunto avaliado
+e o já conhecido pela banca forem iguais em qualidade.
+
+---
+
+## Evolução da Qualidade relativa - Doutorado
+![plot of chunk QualiRelTimeD](assets/fig/QualiRelTimeD-1.png)
+
+*** =pnotes
+
+**Número de teses/dissertações defendidas entre
+ 2011 e 2015, por classe de qualidade.**
+
+A avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram a qualidade do trabalho relativa a todos que 
+já orientou ou avaliou, entre quatro classes:
+
+- Abaixo dos 50% melhores que já avaliou/orientou
+- Entre os 50% melhores
+- Entre os 25% melhores
+- Entre os 10% melhores
+
+Quando houve resposta de mais de um avaliador, foi considerada 
+a categoria de menor qualidade, entre as indicadas.
+
+Também indicado o número esperado em cada categoria se o conjunto avaliado
+e o já conhecido pela banca forem iguais em qualidade.
+
+---
+
+## Evolução da Qualidade relativa - Mestrado
+![plot of chunk QualiRelTimeM](assets/fig/QualiRelTimeM-1.png)
 
 *** =pnotes
 
@@ -235,7 +284,7 @@ e o já conhecido pela banca forem iguais em qualidade.
 
 O melhor artigo decorrente da dissertação ou tese poderia ser
 publicado em periódico em qual categoria de fator de impacto em sua
-área:  
+área: 
 - Impacto alto
 - Impacto médio
 - Impacto baixo 
@@ -244,7 +293,49 @@ publicado em periódico em qual categoria de fator de impacto em sua
 ---
 
 ## Impacto potencial
-![plot of chunk ImpactoMD](assets/fig/ImpactoMD-1.png) 
+![plot of chunk ImpactoMD](assets/fig/ImpactoMD-1.png)
+
+*** =pnotes
+
+**Proporção de teses e dissertações defendidas entre  2011 e 2015 , 
+por classe de impacto.**
+
+A avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram o impacto potencial da melhor publicação resultante da tese/dissertação, entre quatro classes:
+
+- Há baixa chance de publicação 
+- Impacto baixo 
+- Impacto médio
+- Impacto alto
+
+Quando houve resposta de mais de um avaliador, foi considerada 
+a categoria mais baixa entre as indicadas.
+
+---
+
+## Evolução do Impacto potencial - Doutorado
+![plot of chunk ImpactoTimeD](assets/fig/ImpactoTimeD-1.png)
+
+*** =pnotes
+
+**Proporção de teses e dissertações defendidas entre  2011 e 2015 , 
+por classe de impacto.**
+
+A avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram o impacto potencial da melhor publicação resultante da tese/dissertação, entre quatro classes:
+
+- Há baixa chance de publicação 
+- Impacto baixo 
+- Impacto médio
+- Impacto alto
+
+Quando houve resposta de mais de um avaliador, foi considerada 
+a categoria mais baixa entre as indicadas.
+
+---
+
+## Evolução do Impacto potencial - Doutorado
+![plot of chunk ImpactoTimeM](assets/fig/ImpactoTimeM-1.png)
 
 *** =pnotes
 
@@ -292,7 +383,53 @@ aplique ou marque mais de uma se achar adequado.
 ---
 
 ## Distribuição das notas
-![plot of chunk DensityNotas](assets/fig/DensityNotas-1.png) 
+![plot of chunk DensityNotas](assets/fig/DensityNotas-1.png)
+
+*** =pnotes
+
+**Distribuição das notas das dissertações de mestrado e teses de doutorado 
+defendidas entre  2011 e 2015 .**
+
+A avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa: 
+redação, contextualização teórica, objetivos bem definidos, pergunta/hipóteses claras, 
+originalidade e relevância, métodos bem descritos e adequados, 
+análises bem descritas e adequadas, 
+resultados bem apresentados e conclusivos, discussão lógica e bem fundamentada, uso adequado da literatura.
+
+As notas são as médias do número de indicações por tese/dissertação.
+As curvas são [kernels de densidade probabilística](http://en.wikipedia.org/wiki/Kernel_density_estimation), 
+uma alternativa preferível a histogramas
+para representar distribuições de frequência.
+
+
+---
+
+## Evolução das Notas - Doutorado
+![plot of chunk NotasTimeD](assets/fig/NotasTimeD-1.png)
+
+*** =pnotes
+
+**Distribuição das notas das dissertações de mestrado e teses de doutorado 
+defendidas entre  2011 e 2015 .**
+
+A avaliação anônima feita pelos participantes das bancas de defesa, 
+que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa: 
+redação, contextualização teórica, objetivos bem definidos, pergunta/hipóteses claras, 
+originalidade e relevância, métodos bem descritos e adequados, 
+análises bem descritas e adequadas, 
+resultados bem apresentados e conclusivos, discussão lógica e bem fundamentada, uso adequado da literatura.
+
+As notas são as médias do número de indicações por tese/dissertação.
+As curvas são [kernels de densidade probabilística](http://en.wikipedia.org/wiki/Kernel_density_estimation), 
+uma alternativa preferível a histogramas
+para representar distribuições de frequência.
+
+
+---
+
+## Evolução das Notas - Mestrado
+![plot of chunk NotasTimeM](assets/fig/NotasTimeM-1.png)
 
 *** =pnotes
 
@@ -315,7 +452,7 @@ para representar distribuições de frequência.
 ---
 
 ## Proporção de indicações por item
-![plot of chunk DotplotMD](assets/fig/DotplotMD-1.png) 
+![plot of chunk DotplotMD](assets/fig/DotplotMD-1.png)
 
 *** =pnotes
 
@@ -338,7 +475,7 @@ em cada quesito, por aluno. Em seguida foi calculada a média desses valores par
 
 ## Quartis de qualidade (Mestrado)
 
-![plot of chunk DotplotExtratoM](assets/fig/DotplotExtratoM-1.png) 
+![plot of chunk DotplotExtratoM](assets/fig/DotplotExtratoM-1.png)
 ***=pnotes
 
 **Proporção de teses e dissertações consideradas excelentes em dez quesitos: 
@@ -360,7 +497,7 @@ em cada quesito, por aluno. Em seguida foi calculada a média desses valores par
 
 ## Quartis de qualidade (Doutorado)
 
-![plot of chunk DotplotExtratoD](assets/fig/DotplotExtratoD-1.png) 
+![plot of chunk DotplotExtratoD](assets/fig/DotplotExtratoD-1.png)
 ***=pnotes
 
 **Proporção de teses e dissertações consideradas excelentes em dez quesitos: 
@@ -381,7 +518,7 @@ em cada quesito, por aluno. Em seguida foi calculada a média desses valores par
 ---
 
 ## Prazo de depósito e nota (Mestrado)
-![plot of chunk TempoNotaM](assets/fig/TempoNotaM-1.png) 
+![plot of chunk TempoNotaM](assets/fig/TempoNotaM-1.png)
 ***=pnotes
 
 **Notas das dissertações e teses 
@@ -402,7 +539,7 @@ ultrapassam os prazos regimentais.
 ---
 
 ## Prazo de depósito e nota (Doutorado)
-![plot of chunk TempoNotaD](assets/fig/TempoNotaD-1.png) 
+![plot of chunk TempoNotaD](assets/fig/TempoNotaD-1.png)
 ***=pnotes
 
 **Notas das dissertações e teses 

@@ -70,7 +70,6 @@ o presente trabalho enquadra-se:
 ```{r, child="../files/legendas/QualiRel.Rmd"}
 ```
 
-
 ---
 
 ## Qualidade relativa - Doutorado
@@ -83,11 +82,31 @@ o presente trabalho enquadra-se:
 
 ---
 
+## Evolução da Qualidade relativa - Doutorado
+```{r QualiRelTimeD}
+```
+
+*** =pnotes
+```{r, child="../files/legendas/QualiRel.Rmd"}
+```
+
+---
+
+## Evolução da Qualidade relativa - Mestrado
+```{r QualiRelTimeM}
+```
+
+*** =pnotes
+```{r, child="../files/legendas/QualiRel.Rmd"}
+```
+
+---
+
 ## Pergunta sobre impacto potencial
 
 O melhor artigo decorrente da dissertação ou tese poderia ser
 publicado em periódico em qual categoria de fator de impacto em sua
-área:  
+área: 
 - Impacto alto
 - Impacto médio
 - Impacto baixo 
@@ -97,6 +116,26 @@ publicado em periódico em qual categoria de fator de impacto em sua
 
 ## Impacto potencial
 ```{r ImpactoMD}
+```
+
+*** =pnotes
+```{r, child="../files/legendas/Impacto.Rmd"}
+```
+
+---
+
+## Evolução do Impacto potencial - Doutorado
+```{r ImpactoTimeD}
+```
+
+*** =pnotes
+```{r, child="../files/legendas/Impacto.Rmd"}
+```
+
+---
+
+## Evolução do Impacto potencial - Doutorado
+```{r ImpactoTimeM}
 ```
 
 *** =pnotes
@@ -134,6 +173,26 @@ aplique ou marque mais de uma se achar adequado.
 
 ## Distribuição das notas
 ```{r DensityNotas}
+```
+
+*** =pnotes
+```{r, child="../files/legendas/DensityNotas.Rmd"}
+```
+
+---
+
+## Evolução das Notas - Doutorado
+```{r NotasTimeD}
+```
+
+*** =pnotes
+```{r, child="../files/legendas/DensityNotas.Rmd"}
+```
+
+---
+
+## Evolução das Notas - Mestrado
+```{r NotasTimeM}
 ```
 
 *** =pnotes
