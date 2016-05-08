@@ -134,7 +134,7 @@ publicado em periódico em qual categoria de fator de impacto em sua
 
 ---
 
-## Evolução do Impacto potencial - Doutorado
+## Evolução do Impacto potencial - Mestrado
 ```{r ImpactoTimeM}
 ```
 
