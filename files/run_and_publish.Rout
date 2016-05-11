@@ -119,11 +119,11 @@ label: QualiRelTimeD
   |                                                                         |.................                                                |  26%
 label: unnamed-chunk-3 (with options) 
 List of 1
- $ child: chr "../files/legendas/QualiRel.Rmd"
+ $ child: chr "../files/legendas/QualiRelTempo.Rmd"
 
 
 
-processing file: ./../files/legendas/QualiRel.Rmd
+processing file: ./../files/legendas/QualiRelTempo.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
@@ -139,11 +139,11 @@ label: QualiRelTimeM
   |                                                                         |.....................                                            |  32%
 label: unnamed-chunk-4 (with options) 
 List of 1
- $ child: chr "../files/legendas/QualiRel.Rmd"
+ $ child: chr "../files/legendas/QualiRelTempo.Rmd"
 
 
 
-processing file: ./../files/legendas/QualiRel.Rmd
+processing file: ./../files/legendas/QualiRelTempo.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
@@ -179,11 +179,11 @@ label: ImpactoTimeD
   |                                                                         |.............................                                    |  45%
 label: unnamed-chunk-6 (with options) 
 List of 1
- $ child: chr "../files/legendas/Impacto.Rmd"
+ $ child: chr "../files/legendas/ImpactoTempo.Rmd"
 
 
 
-processing file: ./../files/legendas/Impacto.Rmd
+processing file: ./../files/legendas/ImpactoTempo.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
@@ -199,11 +199,11 @@ label: ImpactoTimeM
   |                                                                         |.................................                                |  51%
 label: unnamed-chunk-7 (with options) 
 List of 1
- $ child: chr "../files/legendas/Impacto.Rmd"
+ $ child: chr "../files/legendas/ImpactoTempo.Rmd"
 
 
 
-processing file: ./../files/legendas/Impacto.Rmd
+processing file: ./../files/legendas/ImpactoTempo.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
@@ -239,11 +239,11 @@ label: NotasTimeD
   |                                                                         |.........................................                        |  63%
 label: unnamed-chunk-9 (with options) 
 List of 1
- $ child: chr "../files/legendas/DensityNotas.Rmd"
+ $ child: chr "../files/legendas/NotasTempo.Rmd"
 
 
 
-processing file: ./../files/legendas/DensityNotas.Rmd
+processing file: ./../files/legendas/NotasTempo.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 
@@ -259,11 +259,11 @@ label: NotasTimeM
   |                                                                         |.............................................                    |  69%
 label: unnamed-chunk-10 (with options) 
 List of 1
- $ child: chr "../files/legendas/DensityNotas.Rmd"
+ $ child: chr "../files/legendas/NotasTempo.Rmd"
 
 
 
-processing file: ./../files/legendas/DensityNotas.Rmd
+processing file: ./../files/legendas/NotasTempo.Rmd
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
    inline R code fragments
 

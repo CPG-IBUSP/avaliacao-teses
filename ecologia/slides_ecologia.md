@@ -175,7 +175,8 @@ aplique ou marque mais de uma se achar adequado.
 *** =pnotes
 
 **Distribuição das notas das dissertações de mestrado e teses de doutorado 
-defendidas entre  2011 e 2015 .**
+defendidas no IBUSP  
+( 2011 - 2015 ).**
 
 A avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa: 
@@ -185,6 +186,7 @@ análises bem descritas e adequadas,
 resultados bem apresentados e conclusivos, discussão lógica e bem fundamentada, uso adequado da literatura.
 
 As notas são as médias do número de indicações por tese/dissertação.
+Quando houve avaliação por mais de um membro da banca usamos a menos nota.
 As curvas são [kernels de densidade probabilística](http://en.wikipedia.org/wiki/Kernel_density_estimation), 
 uma alternativa preferível a histogramas
 para representar distribuições de frequência.

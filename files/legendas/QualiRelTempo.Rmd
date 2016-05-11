@@ -1,0 +1,14 @@
+**Evolução da proporção de teses/dissertações defendidas entre
+ `r min(ficha$ano.def)` e `r max(ficha$ano.def)` em cada classe de qualidade.**
+
+A avaliação anônima foi feita pelos participantes das bancas de defesa, 
+que indicaram a qualidade do trabalho relativa a todos que 
+já orientou ou avaliou, entre quatro classes:
+
+- Abaixo dos 50% melhores que já avaliou/orientou
+- Entre os 50% melhores
+- Entre os 25% melhores
+- Entre os 10% melhores
+
+Quando houve resposta de mais de um avaliador, foi considerada 
+a categoria de menor qualidade, entre as indicadas.

@@ -87,7 +87,7 @@ o presente trabalho enquadra-se:
 ```
 
 *** =pnotes
-```{r, child="../files/legendas/QualiRel.Rmd"}
+```{r, child="../files/legendas/QualiRelTempo.Rmd"}
 ```
 
 ---
@@ -97,7 +97,7 @@ o presente trabalho enquadra-se:
 ```
 
 *** =pnotes
-```{r, child="../files/legendas/QualiRel.Rmd"}
+```{r, child="../files/legendas/QualiRelTempo.Rmd"}
 ```
 
 ---
@@ -129,7 +129,7 @@ publicado em periódico em qual categoria de fator de impacto em sua
 ```
 
 *** =pnotes
-```{r, child="../files/legendas/Impacto.Rmd"}
+```{r, child="../files/legendas/ImpactoTempo.Rmd"}
 ```
 
 ---
@@ -139,7 +139,7 @@ publicado em periódico em qual categoria de fator de impacto em sua
 ```
 
 *** =pnotes
-```{r, child="../files/legendas/Impacto.Rmd"}
+```{r, child="../files/legendas/ImpactoTempo.Rmd"}
 ```
 
 ---
@@ -186,7 +186,7 @@ aplique ou marque mais de uma se achar adequado.
 ```
 
 *** =pnotes
-```{r, child="../files/legendas/DensityNotas.Rmd"}
+```{r, child="../files/legendas/NotasTempo.Rmd"}
 ```
 
 ---
@@ -196,7 +196,7 @@ aplique ou marque mais de uma se achar adequado.
 ```
 
 *** =pnotes
-```{r, child="../files/legendas/DensityNotas.Rmd"}
+```{r, child="../files/legendas/NotasTempo.Rmd"}
 ```
 
 ---

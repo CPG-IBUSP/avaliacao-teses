@@ -39,14 +39,14 @@ github:
 ### Defesas entre 2011 e 2015
 
 <!-- Table generated in R 3.2.4 by googleVis 0.5.10 package -->
-<!-- Wed May 11 11:06:05 2016 -->
+<!-- Wed May 11 11:34:46 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataTableID28db66dba1e8 () {
+function gvisDataTableID46c84789792c () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -103,14 +103,14 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartTableID28db66dba1e8() {
-var data = gvisDataTableID28db66dba1e8();
+function drawChartTableID46c84789792c() {
+var data = gvisDataTableID46c84789792c();
 var options = {};
 options["allowHtml"] = true;
 options["sort"] = "disable";
 
     var chart = new google.visualization.Table(
-    document.getElementById('TableID28db66dba1e8')
+    document.getElementById('TableID46c84789792c')
     );
     chart.draw(data,options);
     
@@ -134,9 +134,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartTableID28db66dba1e8);
+callbacks.push(drawChartTableID46c84789792c);
 })();
-function displayChartTableID28db66dba1e8() {
+function displayChartTableID46c84789792c() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -160,11 +160,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID28db66dba1e8"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID46c84789792c"></script>
  
 <!-- divChart -->
   
-<div id="TableID28db66dba1e8" 
+<div id="TableID46c84789792c" 
   style="width: 60%; height: automatic;">
 </div>
 
@@ -235,10 +235,10 @@ e o já conhecido pela banca forem iguais em qualidade.
 
 *** =pnotes
 
-**Número de teses/dissertações defendidas entre
- 2011 e 2015, por classe de qualidade.**
+**Evolução da proporção de teses/dissertações defendidas entre
+ 2011 e 2015 em cada classe de qualidade.**
 
-A avaliação anônima feita pelos participantes das bancas de defesa, 
+A avaliação anônima foi feita pelos participantes das bancas de defesa, 
 que indicaram a qualidade do trabalho relativa a todos que 
 já orientou ou avaliou, entre quatro classes:
 
@@ -249,9 +249,6 @@ já orientou ou avaliou, entre quatro classes:
 
 Quando houve resposta de mais de um avaliador, foi considerada 
 a categoria de menor qualidade, entre as indicadas.
-
-Também indicado o número esperado em cada categoria se o conjunto avaliado
-e o já conhecido pela banca forem iguais em qualidade.
 
 ---
 
@@ -260,10 +257,10 @@ e o já conhecido pela banca forem iguais em qualidade.
 
 *** =pnotes
 
-**Número de teses/dissertações defendidas entre
- 2011 e 2015, por classe de qualidade.**
+**Evolução da proporção de teses/dissertações defendidas entre
+ 2011 e 2015 em cada classe de qualidade.**
 
-A avaliação anônima feita pelos participantes das bancas de defesa, 
+A avaliação anônima foi feita pelos participantes das bancas de defesa, 
 que indicaram a qualidade do trabalho relativa a todos que 
 já orientou ou avaliou, entre quatro classes:
 
@@ -274,9 +271,6 @@ já orientou ou avaliou, entre quatro classes:
 
 Quando houve resposta de mais de um avaliador, foi considerada 
 a categoria de menor qualidade, entre as indicadas.
-
-Também indicado o número esperado em cada categoria se o conjunto avaliado
-e o já conhecido pela banca forem iguais em qualidade.
 
 ---
 
@@ -318,10 +312,10 @@ a categoria mais baixa entre as indicadas.
 
 *** =pnotes
 
-**Proporção de teses e dissertações defendidas entre  2011 e 2015 , 
-por classe de impacto.**
+** Evolução da proporção de teses e dissertações defendidas entre  2011 e 2015 , 
+em cada classe de impacto.**
 
-A avaliação anônima feita pelos participantes das bancas de defesa, 
+A avaliação anônima foi feita pelos participantes das bancas de defesa, 
 que indicaram o impacto potencial da melhor publicação resultante da tese/dissertação, entre quatro classes:
 
 - Há baixa chance de publicação 
@@ -339,10 +333,10 @@ a categoria mais baixa entre as indicadas.
 
 *** =pnotes
 
-**Proporção de teses e dissertações defendidas entre  2011 e 2015 , 
-por classe de impacto.**
+** Evolução da proporção de teses e dissertações defendidas entre  2011 e 2015 , 
+em cada classe de impacto.**
 
-A avaliação anônima feita pelos participantes das bancas de defesa, 
+A avaliação anônima foi feita pelos participantes das bancas de defesa, 
 que indicaram o impacto potencial da melhor publicação resultante da tese/dissertação, entre quatro classes:
 
 - Há baixa chance de publicação 
@@ -388,7 +382,8 @@ aplique ou marque mais de uma se achar adequado.
 *** =pnotes
 
 **Distribuição das notas das dissertações de mestrado e teses de doutorado 
-defendidas entre  2011 e 2015 .**
+defendidas no IBUSP  
+( 2011 - 2015 ).**
 
 A avaliação anônima feita pelos participantes das bancas de defesa, 
 que indicaram até dez aspectos em que a tese/dissertação foi excelente ou muito boa: 
@@ -398,6 +393,7 @@ análises bem descritas e adequadas,
 resultados bem apresentados e conclusivos, discussão lógica e bem fundamentada, uso adequado da literatura.
 
 As notas são as médias do número de indicações por tese/dissertação.
+Quando houve avaliação por mais de um membro da banca usamos a menos nota.
 As curvas são [kernels de densidade probabilística](http://en.wikipedia.org/wiki/Kernel_density_estimation), 
 uma alternativa preferível a histogramas
 para representar distribuições de frequência.
@@ -410,7 +406,7 @@ para representar distribuições de frequência.
 
 *** =pnotes
 
-**Distribuição das notas das dissertações de mestrado e teses de doutorado 
+**Evolução das notas médias das dissertações de mestrado e teses de doutorado 
 defendidas entre  2011 e 2015 .**
 
 A avaliação anônima feita pelos participantes das bancas de defesa, 
@@ -421,9 +417,7 @@ análises bem descritas e adequadas,
 resultados bem apresentados e conclusivos, discussão lógica e bem fundamentada, uso adequado da literatura.
 
 As notas são as médias do número de indicações por tese/dissertação.
-As curvas são [kernels de densidade probabilística](http://en.wikipedia.org/wiki/Kernel_density_estimation), 
-uma alternativa preferível a histogramas
-para representar distribuições de frequência.
+Quando houve avaliação por mais de um membro da banca utilizamos a menos nota.
 
 
 ---
@@ -433,7 +427,7 @@ para representar distribuições de frequência.
 
 *** =pnotes
 
-**Distribuição das notas das dissertações de mestrado e teses de doutorado 
+**Evolução das notas médias das dissertações de mestrado e teses de doutorado 
 defendidas entre  2011 e 2015 .**
 
 A avaliação anônima feita pelos participantes das bancas de defesa, 
@@ -444,9 +438,7 @@ análises bem descritas e adequadas,
 resultados bem apresentados e conclusivos, discussão lógica e bem fundamentada, uso adequado da literatura.
 
 As notas são as médias do número de indicações por tese/dissertação.
-As curvas são [kernels de densidade probabilística](http://en.wikipedia.org/wiki/Kernel_density_estimation), 
-uma alternativa preferível a histogramas
-para representar distribuições de frequência.
+Quando houve avaliação por mais de um membro da banca utilizamos a menos nota.
 
 
 ---

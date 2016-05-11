@@ -1,0 +1,13 @@
+** Evolução da proporção de teses e dissertações defendidas entre  `r min(ficha$ano.def)` e `r max(ficha$ano.def)` , 
+em cada classe de impacto.**
+
+A avaliação anônima foi feita pelos participantes das bancas de defesa, 
+que indicaram o impacto potencial da melhor publicação resultante da tese/dissertação, entre quatro classes:
+
+- Há baixa chance de publicação 
+- Impacto baixo 
+- Impacto médio
+- Impacto alto
+
+Quando houve resposta de mais de um avaliador, foi considerada 
+a categoria mais baixa entre as indicadas.
