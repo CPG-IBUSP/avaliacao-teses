@@ -39,14 +39,14 @@ github:
 ### Defesas entre 2011 e 2015
 
 <!-- Table generated in R 3.2.4 by googleVis 0.5.10 package -->
-<!-- Sun May  8 02:49:32 2016 -->
+<!-- Wed May 11 11:06:05 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataTableID4f479eab8e3 () {
+function gvisDataTableID28db66dba1e8 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -103,14 +103,14 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartTableID4f479eab8e3() {
-var data = gvisDataTableID4f479eab8e3();
+function drawChartTableID28db66dba1e8() {
+var data = gvisDataTableID28db66dba1e8();
 var options = {};
 options["allowHtml"] = true;
 options["sort"] = "disable";
 
     var chart = new google.visualization.Table(
-    document.getElementById('TableID4f479eab8e3')
+    document.getElementById('TableID28db66dba1e8')
     );
     chart.draw(data,options);
     
@@ -134,9 +134,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartTableID4f479eab8e3);
+callbacks.push(drawChartTableID28db66dba1e8);
 })();
-function displayChartTableID4f479eab8e3() {
+function displayChartTableID28db66dba1e8() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -160,11 +160,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID4f479eab8e3"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID28db66dba1e8"></script>
  
 <!-- divChart -->
   
-<div id="TableID4f479eab8e3" 
+<div id="TableID28db66dba1e8" 
   style="width: 60%; height: automatic;">
 </div>
 

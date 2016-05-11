@@ -178,8 +178,9 @@ barplot(t(tab3),beside=T, col=c("darkblue","grey"), border=NA,
 tab2yM <- with(subset(ficha.min, titulo="Mestrado"), f1(estrato, ano.defesa))
 par(cex.axis = 2, cex.lab = 2.25, cex.main=2.5, mar = c(6,6.5,4,2), mgp=c(5,1,0),bty = "l", las=1)
 matplot(y= t(as.matrix(tab2yM$t2)), x=colnames(tab2yM$t2),
-        ylab="Proporção de dissertações", xlab="", type="b", pch=1, lty=2, lwd=1, cex=1.5)
-legend("topleft", legend=rownames(tab2yM$t2), pch=1, col=1:ncol(tab2yM$t2),
+        ylab="Proporção de dissertações", xlab="", type="b", pch=1, lty=2, lwd=1, cex=1.5,
+        ylim = c(min(tab2yM$t2), max(tab2yM$t2)+0.1))
+legend("topright", legend=rownames(tab2yM$t2), pch=1, col=1:ncol(tab2yM$t2),
        bty="n", title="Quantil de qualidade", cex=1.25)
 axis(1, at=as.integer(colnames(tab2yM$t2)), labels=paste("n = ", tab2yM$sc), line=2, tick=FALSE, lty=0, cex.axis=1.5)
 
@@ -190,7 +191,7 @@ par(cex.axis = 2, cex.lab = 2.25, cex.main=2.5, mar = c(6,6.5,4,2), mgp=c(5,1,0)
 matplot(y= t(as.matrix(tab2yD$t2)), x=colnames(tab2yD$t2),
         ylab="Proporção de teses", xlab="", type="b", pch=1, lty=2, lwd=1, cex=1.5,
         ylim=c(min(tab2yD$t2), max(tab2yD$t2)+0.1))
-legend("topleft", legend=rownames(tab2yD$t2),
+legend("topright", legend=rownames(tab2yD$t2),
        pch=1, col=1:ncol(tab2yD$t2),
        bty="n", title="Quantil de qualidade", cex=1.25)
 axis(1, at=as.integer(colnames(tab2yD$t2)), labels=paste("n = ", tab2yD$sc), line=2, tick=FALSE, lty=0, cex.axis=1.5)
@@ -236,8 +237,9 @@ f3(lista1[[n]], main=n, ylim=m1)
 l1yD <- with(subset(ficha.min,ficha.min$titulo=="Doutorado"), f1(impacto, ano.defesa))
 par(cex.axis = 2, cex.lab = 2.25, cex.main=2.5, mar = c(6,6.5,4,2), mgp=c(5,1,0),bty = "l", las=1)
 matplot(y= t(as.matrix(l1yD$t2)), x=colnames(l1yD$t2),
-        ylab="Proporção de teses", xlab="", type="b", pch=1, lty=2, lwd=1, cex=1.5)
-legend("topleft", legend=rownames(l1yD$t2),
+        ylab="Proporção de teses", xlab="", type="b", pch=1, lty=2, lwd=1, cex=1.5,
+        ylim=c(min(l1yD$t2), min(l1yD$t2)+0.1))
+legend("topright", legend=rownames(l1yD$t2),
        pch=1, col=1:ncol(l1yD$t2),
        bty="n", title="Impacto potencial", cex=1.25)
 axis(1, at=as.integer(colnames(l1yD$t2)), labels=paste("n = ", l1yD$sc), line=2, tick=FALSE, lty=0, cex.axis=1.5)
@@ -247,8 +249,9 @@ axis(1, at=as.integer(colnames(l1yD$t2)), labels=paste("n = ", l1yD$sc), line=2,
 l1yM <- with(subset(ficha.min,ficha.min$titulo=="Mestrado"), f1(impacto, ano.defesa))
 par(cex.axis = 2, cex.lab = 2.25, cex.main=2.5, mar = c(6,6.5,4,2), mgp=c(5,1,0),bty = "l", las=1)
 matplot(y= t(as.matrix(l1yM$t2)), x=colnames(l1yM$t2),
-        ylab="Proporção de dissertações", xlab="", type="b", pch=1, lty=2, lwd=1, cex=1.5)
-legend("topleft", legend=rownames(l1yM$t2),
+        ylab="Proporção de dissertações", xlab="", type="b", pch=1, lty=2, lwd=1, cex=1.5,
+        ylim=c(min(l1yM$t2),max(l1yM$t2)+0.1))
+legend("topright", legend=rownames(l1yM$t2),
        pch=1, col=1:ncol(l1yM$t2),
        bty="n", title="Impacto potencial", cex=1.25)
 axis(1, at=as.integer(colnames(l1yM$t2)), labels=paste("n = ", l1yM$sc), line=2, tick=FALSE, lty=0, cex.axis=1.5)
@@ -292,7 +295,7 @@ legend("topleft", c("Total", "Mestrado", "Doutorado"),
 par(mfrow=c(1,1), cex.axis = 2, cex.lab = 2.25, cex.main=2.5, mar = c(6,6.5,4,2), mgp=c(4,1,0),bty = "l", las=1, lwd=3)
 b1 <- boxplot(nota.tese ~ ano.defesa, data=ficha.min, subset=titulo=="Mestrado", ylab="Notas (Soma de indicações)",
               xlab="", ylim=c(0,10.5), axes=FALSE, border="darkblue")
-text(1:length(b1$n), 10.25, pos=3, paste("n=", b1$n), cex=1.5)
+text(1:length(b1$n), 10.25, pos=3, paste("n =", b1$n), cex=1.5)
 axis(2)
 axis(1, line=1.25, at=1:length(b1$names), labels= b1$names, font=2, tick=FALSE, )
 
@@ -303,7 +306,7 @@ axis(1, line=1.25, at=1:length(b1$names), labels= b1$names, font=2, tick=FALSE, 
 par(mfrow=c(1,1), cex.axis = 2, cex.lab = 2.25, cex.main=2.5, mar = c(6,6.5,4,2), mgp=c(4,1,0),bty = "l", las=1, lwd=3)
 b1 <- boxplot(nota.tese ~ ano.defesa, data=ficha.min, subset=titulo=="Doutorado", ylab="Notas (Soma de indicações)",
               xlab="", ylim=c(0,10.5), axes=FALSE, border="darkblue")
-text(1:length(b1$n), 10.25, pos=3, paste("n=", b1$n), cex=1.5)
+text(1:length(b1$n), 10.25, pos=3, paste("n =", b1$n), cex=1.5)
 axis(2)
 axis(1, line=1.25, at=1:length(b1$names), labels= b1$names, font=2, tick=FALSE, )
 

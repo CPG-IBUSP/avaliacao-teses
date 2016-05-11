@@ -58,7 +58,7 @@ o presente trabalho enquadra-se:
 ---
 
 ## Qualidade relativa - Mestrado
-![plot of chunk QualiRelM](assets/fig/QualiRelM-1.png) 
+![plot of chunk QualiRelM](assets/fig/QualiRelM-1.png)
 
 *** =pnotes
 
@@ -84,7 +84,7 @@ e o já conhecido pela banca forem iguais em qualidade.
 ---
 
 ## Qualidade relativa - Doutorado
-![plot of chunk QualiRelD](assets/fig/QualiRelD-1.png) 
+![plot of chunk QualiRelD](assets/fig/QualiRelD-1.png)
 
 *** =pnotes
 
@@ -121,7 +121,7 @@ publicado em periódico em qual categoria de fator de impacto em sua
 ---
 
 ## Impacto potencial
-![plot of chunk ImpactoMD](assets/fig/ImpactoMD-1.png) 
+![plot of chunk ImpactoMD](assets/fig/ImpactoMD-1.png)
 
 *** =pnotes
 
@@ -169,7 +169,7 @@ aplique ou marque mais de uma se achar adequado.
 ---
 
 ## Distribuição das notas
-![plot of chunk DensityNotas](assets/fig/DensityNotas-1.png) 
+![plot of chunk DensityNotas](assets/fig/DensityNotas-1.png)
 
 *** =pnotes
 
@@ -192,7 +192,7 @@ para representar distribuições de frequência.
 ---
 
 ## Proporção de indicações por item
-![plot of chunk DotplotMD](assets/fig/DotplotMD-1.png) 
+![plot of chunk DotplotMD](assets/fig/DotplotMD-1.png)
 
 *** =pnotes
 
@@ -215,7 +215,7 @@ em cada quesito, por aluno. Em seguida foi calculada a média desses valores par
 
 ## Quartis de qualidade (Mestrado)
 
-![plot of chunk DotplotExtratoM](assets/fig/DotplotExtratoM-1.png) 
+![plot of chunk DotplotExtratoM](assets/fig/DotplotExtratoM-1.png)
 ***=pnotes
 
 **Proporção de teses e dissertações consideradas excelentes em dez quesitos: 
@@ -237,7 +237,7 @@ em cada quesito, por aluno. Em seguida foi calculada a média desses valores par
 
 ## Quartis de qualidade (Doutorado)
 
-![plot of chunk DotplotExtratoD](assets/fig/DotplotExtratoD-1.png) 
+![plot of chunk DotplotExtratoD](assets/fig/DotplotExtratoD-1.png)
 ***=pnotes
 
 **Proporção de teses e dissertações consideradas excelentes em dez quesitos: 
@@ -258,7 +258,7 @@ em cada quesito, por aluno. Em seguida foi calculada a média desses valores par
 ---
 
 ## Prazo de depósito e nota (Mestrado)
-![plot of chunk TempoNotaM](assets/fig/TempoNotaM-1.png) 
+![plot of chunk TempoNotaM](assets/fig/TempoNotaM-1.png)
 ***=pnotes
 
 **Notas das dissertações e teses 
@@ -279,7 +279,7 @@ ultrapassam os prazos regimentais.
 ---
 
 ## Prazo de depósito e nota (Doutorado)
-![plot of chunk TempoNotaD](assets/fig/TempoNotaD-1.png) 
+![plot of chunk TempoNotaD](assets/fig/TempoNotaD-1.png)
 ***=pnotes
 
 **Notas das dissertações e teses 
